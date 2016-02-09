@@ -7,7 +7,7 @@ use:
   - users
   - wordpress
 title: All Articles
-layout: article
+layout: doc
 landing_subdirs: true
 ---
 

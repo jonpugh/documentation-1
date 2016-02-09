@@ -25,5 +25,13 @@ $categories_redirect = "if (strpos(\$_SERVER['REQUEST_URI'], 'customer/portal/to
 
 fwrite($index_file, $categories_redirect);
 
+$articles_redirect = "if (strpos(\$_SERVER['REQUEST_URI'], '/docs/articles') !== FALSE) {
+  header('HTTP/1.0 301 Moved Permanently');
+  header('Location: /docs'); exit();
+}\n";
+
+fwrite($index_file, $articles_redirect );
+
+
 fclose($handle);
 fclose($index_file);

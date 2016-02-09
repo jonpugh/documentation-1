@@ -487,7 +487,15 @@ if (strpos($_SERVER['REQUEST_URI'], '/customer/portal/articles/1427001') !== FAL
   header('HTTP/1.0 301 Moved Permanently');
   header('Location: /docs/articles/sites/rename-a-site'); exit();
 }
+if (strpos($_SERVER['REQUEST_URI'], '/customer/portal/articles//docs/articles/power-users') !== FALSE ) {
+  header('HTTP/1.0 301 Moved Permanently');
+  header('Location: /docs/power-users'); exit();
+}
 if (strpos($_SERVER['REQUEST_URI'], 'customer/portal/topics') !== FALSE) {
   header('HTTP/1.0 301 Moved Permanently');
   header('Location: /docs/articles'); exit();
+}
+if (strpos($_SERVER['REQUEST_URI'], '/docs/articles') !== FALSE) {
+  header('HTTP/1.0 301 Moved Permanently');
+  header('Location: /docs'); exit();
 }

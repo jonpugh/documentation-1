@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: doc
 title: Welcome to our Docs
 
 ---
