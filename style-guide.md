@@ -220,7 +220,7 @@ Yes. We have complete and total support for WordPress sites and developers.
 
 File paths should be shown the same way code snippets are so that they're easier to read. File paths should be wrapped in backticks.  
 ```
-/source/docs/assets/images/
+/source/assets/images/
 ```
 
 If it's a path within the Dashboard, separate tab/page names with an angle bracket ">".  
@@ -417,7 +417,7 @@ The final step is to deploy your code and plugin settings to the live environmen
 ### User Dashboard
 It's always referred to as User Dashboard in order to reduce confusion between the Org Dashboard and Site Dashboard.
 
-![User Dashboard](/source/docs/assets/images/pantheon-user-dashboard1.png)
+![User Dashboard](/source/assets/images/pantheon-user-dashboard1.png)
 
 #### Tabs on the User Dashboard
 Organizations Tab
@@ -430,7 +430,7 @@ Open a ticket on the Support tab.
 
 Terms to use when referring to the Dashboard: Site Dashboard or the Dashboard.
 
-![Site Dashboard](/source/docs/assets/images/site-dashboard-image.png)
+![Site Dashboard](/source/assets/images/site-dashboard-image.png)
 
 #### Site Dashboard Tools
 Capitalize the name of the tab, but not the word "tab".  

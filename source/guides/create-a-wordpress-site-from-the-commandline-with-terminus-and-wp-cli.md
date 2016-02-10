@@ -29,7 +29,7 @@ Once installed, test it using the following command:
 $ terminus art
 ```
 
-![The Pantheon logo represented in ASCII art](/source/docs/assets/images/command-line-terminus-art.png)
+![The Pantheon logo represented in ASCII art](/source/assets/images/command-line-terminus-art.png)
 
 If you see the Pantheon lightning fist, you'll know that terminus is installed properly.
 
@@ -294,7 +294,7 @@ $ terminus wp 'theme install --activate' \
 
 Watch your Dashboard. It recognizes your uncommitted changes.
 
-![Screenshot of the pantheon dashboard showing uncommitted changes](/source/docs/assets/images/pantheon-dashboard-uncommitted-changes.png)
+![Screenshot of the pantheon dashboard showing uncommitted changes](/source/assets/images/pantheon-dashboard-uncommitted-changes.png)
 
 We can commit the changes to your site's repo with Terminus. First, make sure that you position your browser so that you can see it while in your terminal. As soon as you issue the command, you'll see everything update in the browser.
 
@@ -330,7 +330,7 @@ $ terminus site code commit --site=cli-test \
 
 Now you're ready to edit the cli-test theme, allowing for upstream theme improvements in the pinboard theme to happen without interfering with the functionality of your site.
 
-![Screenshot of the final website created following the steps in this guide](/source/docs/assets/images/pantheon-final-command-line-test-site.png)
+![Screenshot of the final website created following the steps in this guide](/source/assets/images/pantheon-final-command-line-test-site.png)
 
 
 ## The Power of Terminus and WP-CLI

@@ -28,7 +28,7 @@ Pantheon is free for developers. Our live site plans currently start as low as $
 
 All Pantheon servers are currently located in the United States. We have plans to expand to Europe, but we don't have an ETA for when they will be available for end-users.
 
-You can use a [CDN](/docs/articles/drupal/content-delivery-network-cdn-for-file-distribution/) for rapidly serving files from multiple locations. In most cases, sites running on Pantheon in the U.S. perform faster than sites running on local hosting, even if the user is halfway around the world.
+You can use a [CDN](/docs//content-delivery-network-cdn-for-file-distribution/) for rapidly serving files from multiple locations. In most cases, sites running on Pantheon in the U.S. perform faster than sites running on local hosting, even if the user is halfway around the world.
 
 Transatlantic hops in are usually 200-300ms, while Pantheon can usually speed up site page load times by seconds.
 
@@ -40,12 +40,12 @@ Only WordPress and Drupal applications are officially supported, but the PHP run
 
 Pantheon supports toggling between local development mode using `git push` to transfer all code changes, and an on-server development mode, which provides access to the codebase via SFTP.
 
-Direct SSH access is not supported, but you are able to directly interface with mysql, use CLI tools ([Terminus](/docs/articles/local/cli/), [drush](/docs/articles/local/drupal-drush-command-line-utility/), [WP-CLI](/docs/articles/frequently-asked-questions#does-pantheon-support-wp-cli%3F), and SFTP files.
+Direct SSH access is not supported, but you are able to directly interface with mysql, use CLI tools ([Terminus](/docs/cli/), [drush](/docs/drupal-drush-command-line-utility/), [WP-CLI](/docs/frequently-asked-questions#does-pantheon-support-wp-cli%3F), and SFTP files.
 
 
 ### How does Pantheon work with DNS?
 
-Pantheon can handle any domain name you point at it, however DNS configuration is still your responsibility. For more information, see [Domains](/docs/articles/sites/domains/) and [Going Live](/docs/articles/going-live/).
+Pantheon can handle any domain name you point at it, however DNS configuration is still your responsibility. For more information, see [Domains](/docs/) and [Going Live](/docs/going-live/).
 
 ## Developing Sites
 
@@ -67,7 +67,7 @@ No. Pantheon's architecture is designed to provide high performance and a rich f
 Our solution is to deliver granular resources and powerful code management tools so that users who want to run a large portfolio of sites can do so easily, without running the risks inherent in multisite.
 
 ### Does Pantheon support WordPress Multisite?
-Yes, Pantheon supports the following use cases of [WordPress Site Networks](/docs/articles/wordpress/site-networks) created by WordPress' Multisite feature:
+Yes, Pantheon supports the following use cases of [WordPress Site Networks](/docs/site-networks) created by WordPress' Multisite feature:
 
 - Blogs for faculty at a university
 - Franchise sites under a parent organization site
@@ -75,15 +75,15 @@ Yes, Pantheon supports the following use cases of [WordPress Site Networks](/doc
 
 ### Does Pantheon support Drush?
 
-Yes. Pantheon comes with Drush pre-integrated with `@alias` files. For more details, see [Drupal Drush Command-Line Utility](/docs/articles/local/drupal-drush-command-line-utility/).
+Yes. Pantheon comes with Drush pre-integrated with `@alias` files. For more details, see [Drupal Drush Command-Line Utility](/docs/drupal-drush-command-line-utility/).
 
 ### Does Pantheon support WP-CLI?
 
-Yes. You can invoke WP-CLI commands on Pantheon sites using [Terminus](/docs/articles/local/cli/), the Pantheon CLI.
+Yes. You can invoke WP-CLI commands on Pantheon sites using [Terminus](/docs/cli/), the Pantheon CLI.
 
 ### Does Pantheon support local development?
 
-Yes. [Local development](/docs/articles/local) is a great best practice, and Pantheon supports a wide array of local development tools (e.g. MAMP, WAMP, Homebrew, etc).
+Yes. [Local development](/docs/local) is a great best practice, and Pantheon supports a wide array of local development tools (e.g. MAMP, WAMP, Homebrew, etc).
 
 ### How does cron work with Drupal on Pantheon?
 
@@ -91,7 +91,7 @@ The platform will use Drush to run cron on an hourly basis automatically. More f
 
 ### How does cron work with WordPress on Pantheon?
 
-WordPress runs its own internal cron-like system as visitors load your site. You can also use external services to schedule and create tasks. For more information, see [Cron for WordPress](/docs/articles/wordpress/cron-for-wordpress).
+WordPress runs its own internal cron-like system as visitors load your site. You can also use external services to schedule and create tasks. For more information, see [Cron for WordPress](/docs/cron-for-wordpress).
 
 ### Do you support ffmpeg transcoding?
 
@@ -114,7 +114,7 @@ We're currently testing out integration strategies for Solr with our next-genera
 
 For paid customers, we provide 24x7 platform-wide monitoring for Pantheon sites and technical support via priority support tickets. We also have Elite plans available that offer Service Level Agreements and 24x7 on-call support.
 
-Read more about [getting support](https://pantheon.io/docs/articles/getting-support/) and our support offerings on [our pricing page](https://pantheon.io/pricing).
+Read more about [getting support](https://pantheon.io/docs/getting-support/) and our support offerings on [our pricing page](https://pantheon.io/pricing).
 
 
 ## Security

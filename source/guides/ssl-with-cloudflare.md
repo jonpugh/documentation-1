@@ -28,7 +28,7 @@ In addition to gratis HTTPS service, content distribution, and many nifty securi
 
 We recommend you take advantage of this feature as it frees you up from being tied to a single IP address, which is inherently risky. Here are some example DNS settings:
 
-![Example DNS Settings](/source/docs/assets/images/cloudflare-dns.png)
+![Example DNS Settings](/source/assets/images/cloudflare-dns.png)
 
 In this example we used the `@` symbol to set up the "root" CNAME and are using the Pantheon-provided `env-site-sitename.pantheon.io` domain as the target.
 
@@ -38,13 +38,13 @@ As this example shows, you can set additional CNAME records for your Dev and Tes
 
 The next step is to go to the "Crypto" page and enable the "SSL with SPDY" option and set it to **Full** protection mode:
 
-![Enable SSL](/source/docs/assets/images/cloudflare-ssl.png)
+![Enable SSL](/source/assets/images/cloudflare-ssl.png)
 
 It takes a few minutes to go into effect as CloudFlare sets up a certificate for you. At the free level, the certificate they provide will be one that is also used for some other domains, but it will be a fully valid certificate.
 
 It's important to use __Full__ protection mode. Because Pantheon provides HTTPS service out of the box you can encrypt end-to-end, but because the certificate provided by Pantheon is for the sandbox domain you cannot use the "strict" mode:
 
-![SSL Details](/source/docs/assets/images/cloudflare-ssl-types.png)
+![SSL Details](/source/assets/images/cloudflare-ssl-types.png)
 
 While "full" mode is not the highest security setting, it is available for free, and provides much better security for your website compared to "flexible" as the traffic is fully encrypted end-to-end.
 
@@ -124,7 +124,7 @@ On WordPress, you should similarly set the `WP_HOME` and `WP_SITEURL` constants 
 
     }
 
-Also, you may have a number of stored references to `http` links stored in your WordPress database. These can be updated using the search/replace function available in WP-CLI, which is bundled on the platform and [accessible via the command line](/docs/guides/create-a-wordpress-site-from-the-commandline-with-terminus-and-wp-cli/):
+Also, you may have a number of stored references to `http` links stored in your WordPress database. These can be updated using the search/replace function available in WP-CLI, which is bundled on the platform and [accessible via the command line](/guides/create-a-wordpress-site-from-the-commandline-with-terminus-and-wp-cli/):
 
 
 ```bash
@@ -139,7 +139,7 @@ The final step is to standardize all traffic under HTTPS. This is a much better 
 
 In order to go all-in, you will need to configure your site to redirect any requests that are unencrypted over to HTTPS. One way to do this is via CloudFlare's "Page Rules" feature:
 
-![CloudFlare Page Rules](/source/docs/assets/images/cloudflare-always-https.png)
+![CloudFlare Page Rules](/source/assets/images/cloudflare-always-https.png)
 
 By setting up a blanket page rule to match all URLs and apply the "Always HTTPS" parameter, CloudFlare redirect browsers making HTTP requests to HTTPS.
 

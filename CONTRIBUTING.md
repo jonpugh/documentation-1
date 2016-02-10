@@ -40,7 +40,7 @@ Headers and Subheaders render as H2 and H3 tags when the site is published. Thes
 
 ### Use of Images
 
-All images must include a descriptive `alt` value. For details, see the [Images Readme](https://github.com/pantheon-systems/documentation/blob/master/source/docs/assets/images/readme.md).
+All images must include a descriptive `alt` value. For details, see the [Images Readme](https://github.com/pantheon-systems/documentation/blob/master/source/assets/images/readme.md).
 
 ## Edit on GitHub
 
@@ -56,7 +56,7 @@ From your local repo, run the following commands in order:
 ## Add a New Doc
 
 ### Front Matter
-All of our documentation is generated from markdown files, found at [`source/docs/articles/`](/source/docs/articles/) and [`source/docs/guides/`](source/docs/guides/). These markdown files must have front matter that allow the page to render successfully. This is required if you plan to create a new doc. Here's an example:
+All of our documentation is generated from markdown files, found at [`source/docs/articles/`](/source/docs/articles/) and [`source/guides/`](source/guides/). These markdown files must have front matter that allow the page to render successfully. This is required if you plan to create a new doc. Here's an example:
 ```
 ---
 title: Starting With Git

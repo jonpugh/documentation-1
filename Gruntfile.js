@@ -9,7 +9,7 @@ module.exports = function(grunt) {
             'output_dev/docs/articles/**/*.html',
             'output_dev/docs/authors/**/*.html',
             'output_dev/docs/changelog/**/*.html',
-            'output_dev/docs/guides/**/*.html',
+            'output_dev/guides/**/*.html',
             'output_dev/docs/search/*.html'
           ]
         }
