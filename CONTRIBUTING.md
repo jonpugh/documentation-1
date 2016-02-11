@@ -61,7 +61,7 @@ All of our documentation is generated from markdown files, found at [`source/doc
 ---
 title: Starting With Git
 description: Use Git version control with your Pantheon site.
-category:
+categories:
   - getting-started
   - developing
 

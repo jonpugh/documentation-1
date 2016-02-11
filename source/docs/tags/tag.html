@@ -1,0 +1,11 @@
+---
+layout: doc
+generator: docs_tag_index
+title: Tag Index
+---
+
+<ul>
+    {% for doc in page.tag_docs %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+    {% endfor %}
+</ul>

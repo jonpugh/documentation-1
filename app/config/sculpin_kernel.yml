@@ -9,21 +9,23 @@ sculpin_content_types:
         enabled: true
 
     docs:
-        type: path
-        path: docs
-        singular_name: doc
         enabled: true
+        singular_name: doc
+        path: _doc
         taxonomies:
-            - category
-            - tag
-        permalink: pretty
+            - categories
+            - tags
+            - authors
+        permalink: docs/:slug_title/
+
 
     guides:
         type: path
-        path: guides
+        path: _guide
         singular_name: guide
         enabled: true
         taxonomies:
-            - category
+            - categories
+            - tags
             - authors
-        permalink: pretty
+        permalink: guides/:slug_title/

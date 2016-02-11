@@ -1,0 +1,10 @@
+---
+layout: guide
+generator: guides_tag_index
+---
+<h1></h1>
+<ul>
+    {% for guide in tag_guides %}
+        <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+    {% endfor %}
+</ul>
