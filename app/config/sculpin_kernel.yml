@@ -18,6 +18,10 @@ sculpin_content_types:
             - authors
         permalink: docs/:slug_title/
 
+    featured_docs:
+        type: meta
+        meta: featured  # matches any source with "type: featured" metadata
+        layout: doc
 
     guides:
         type: path

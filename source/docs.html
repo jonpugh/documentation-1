@@ -2,53 +2,44 @@
 layout: jumbo
 home: true
 use:
-  - docs
+  - featured_docs
+  - docs_categories
+  - docs_category_index
   - docs_tags
+  - docs
 ---
 <div class="article container-fluid" style="padding-bottom: 0px;">
-    {% if page.home is defined %}
-    {% include("search_box.html") %}
-    {% endif %}
-  <!--  <ul>
-        {% for doc in featured.tag_docs %}
-            <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-        {% endfor %}
-    </ul>-->
     <!--Getting Started Thumbnail-->
-    <div class="col-md-4 thumbnail" style="padding-top: 5px; margin: 15px auto 15px auto">
-        <a href="/docs/getting-started">
-        <img class="noborder" style="padding-top: 10px" src="/source/assets/images/launch-websites-faster.png" alt="Launch">
-        <h2 align="middle">Getting Started</h2></a>
-        <p align ="middle">Learn how to create a site on Pantheon</p>
+    <div class="col-md-6 thumbnail">
+      <div style="text-align:center">
+        <h2><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Featured</h2>
+        {% for featured in data.featured_docs|slice(0, 5) %}
+            <a style="font-weight:bold" href="{{ featured.url }}">{{ featured.title }}</a><br>
+        {% endfor %}
+        <a href="/docs/featured">More...</a>
+      </div>
     </div>
     <!--Required Reading Thumbnail-->
-    <div class="col-md-4 thumbnail" style="padding-top: 5px; margin: 15px auto 15px auto">
-        <a href="/docs/required-reading-essential-pantheon-documentation">
-        <img class="noborder" style="padding-top: 10px" src="/source/assets/images/dashboard-large.png" alt="Required">
-        <h2 align="middle">Required Reading</h2></a>
-        <p align ="middle">Essential Pantheon documentation</p>
+    <div class="col-md-6 thumbnail">
+      <div style="text-align:center">
+        <h2><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Manage Sites</h2>
+        {% for category,docs in data.docs_categories %}
+        <a href="{{ site.url }}/categories/{{ category|url_encode(true) }}">{{ category }}</a>
+        {% endfor %}
+        <a href="/docs/categories/sites">More...</a>
+      </div>
     </div>
-    <!--Guides Thumbnail-->
-    <div class="col-md-4 thumbnail" style="padding-top: 5px; margin: 15px auto 15px auto">
-    <a href="/guides">
-    <img class="noborder" style="padding-top: 10px" src="/source/assets/images/devops-robot.png" alt="Guides">
-    <h2 align="middle">Guides</h2></a>
-    <p align ="middle">Best practices for dynamic sites</p>
-    </div>
-    <!--Articles Thumbnail-->
-    <div class="col-md-4 thumbnail" style="padding-top: 22px; margin: 15px auto 15px auto">
-        <a href="/docs/articles">
-        <h2 align="middle"><span style="margin-right: 10px;" class="glyphicon glyphicon-list" aria-hidden="true"></span>All Articles</h2></a>
-        <p align ="middle">Browse through the entire list of articles</p>
+    <!--Required Reading Thumbnail-->
+    <div class="col-md-6 thumbnail">
     </div>
     <!--Changelog Thumbnail-->
-    <div class="col-md-4 thumbnail" style="padding-top: 22px; margin: 15px auto 15px auto">
+    <div class="col-md-6 thumbnail" style="padding-top: 22px; margin: 15px auto 15px auto">
         <a href="/changelog">
         <h2 align="middle"><span style="margin-right: 10px;" class="glyphicon glyphicon-wrench" aria-hidden="true"></span>Changelog</h2></a>
         <p align ="middle">Recent platform and documentation changes</p>
     </div>
     <!--Changelog Thumbnail-->
-    <div class="col-md-4 thumbnail" style="padding-top: 22px; margin: 15px auto 15px auto">
+    <div class="col-md-6 thumbnail" style="padding-top: 22px; margin: 15px auto 15px auto">
         <a href="/docs/power-users">
         <h2 align="middle"><span style="margin-right: 10px;" class="glyphicon glyphicon-user" aria-hidden="true"></span>Power Users Group</h2></a>
         <p align ="middle">Share best practices with other active users</p>

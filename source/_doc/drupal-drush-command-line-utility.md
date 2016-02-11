@@ -6,11 +6,10 @@ categories:
   - local
   - sites
 tags:
-  - featured
   - drupal6
   - drupal7
   - drupal8
-
+type: featured
 keywords: Drupal drush, command line, drupal, terminus drush, cli
 ---
 [Drush](http://drush.org) is a command-line interface for Drupal that provides a wide set of utilities for administering and maintaining your site.

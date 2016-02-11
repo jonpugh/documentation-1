@@ -3,8 +3,8 @@ title: Configuring Settings.php
 description: Detailed information about configuring your Drupal database settings.
 categories:
   - drupal
+type: featured
 tags:
-  - featured
   - code
 keywords: drupal, settings.php, database configuration, configuration
 ---

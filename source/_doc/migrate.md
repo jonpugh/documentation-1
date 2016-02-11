@@ -4,8 +4,8 @@ description: General instructions for preparing and migrating remotely-hosted Dr
 categories:
   - sites
 tags:
-  - featured
   - migrate
+type: featured
 keywords: migrate, migrating site, migrate from remote host, migrate existing site, migrate from other host, migrate from another host, how to migrate an existing site, alternate host, another host, migration, migrations, migrates, move site to pantheon, move from remote host, move from current host, move hosts, changing hosting providers, how to move hosting to pantheon
 ---
 Migrating a website from another environment is a complex task. Whether it is running locally on a shared host, or on a cluster of virtual machines at an infrastructure-as-a-service provider, the goal is the same: move to Pantheon and enjoy the freedom to build awesome sites.

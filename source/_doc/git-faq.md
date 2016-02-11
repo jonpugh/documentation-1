@@ -5,8 +5,8 @@ categories:
   - local
   - sites
 tags:
-  - featured
   - code
+type: featured
 keywords: git, git commands, conflicts, resolve conflicts, core, drupal, wordpress
 ---
 

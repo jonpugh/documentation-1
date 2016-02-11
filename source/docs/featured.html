@@ -1,0 +1,11 @@
+---
+layout: doc
+title: Featured Docs
+description: Browse most shared docs
+use:
+  - featured_docs
+---
+{% for featured in data.featured_docs %}
+    <a href="{{ featured.url }}">{{ featured.title }}</a><br>
+    {{ feadtured.description }}
+{% endfor %}
