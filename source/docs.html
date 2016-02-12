@@ -3,45 +3,84 @@ layout: jumbo
 home: true
 use:
   - featured_docs
-  - docs_categories
-  - docs_category_index
-  - docs_tags
+  - featured_drupal
+  - featured_wordpress
+  - featured_local
+  - featured_users
+  - featured_sites
+  - featured_organizations
   - docs
 ---
 <div class="article container-fluid" style="padding-bottom: 0px;">
     <!--Getting Started Thumbnail-->
-    <div class="col-md-6 thumbnail">
-      <div style="text-align:center">
-        <h2><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Featured</h2>
+    <div class="col-md-12 thumbnail">
+        <h1 style="font-size:32px;" ><span style="font-size:32px;" class="glyphicon glyphicon-list" aria-hidden="true"></span> Featured</h1>
         {% for featured in data.featured_docs|slice(0, 5) %}
-            <a style="font-weight:bold" href="{{ featured.url }}">{{ featured.title }}</a><br>
+            <a style="font-weight:200;font-size:32px;" href="{{ featured.url }}">{{ featured.title }}</a><br>
         {% endfor %}
-        <a href="/docs/featured">More...</a>
-      </div>
+        <a style="font-weight:bold;" href="/docs/featured">More...</a>
     </div>
     <!--Required Reading Thumbnail-->
-    <div class="col-md-6 thumbnail">
-      <div style="text-align:center">
-        <h2><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Manage Sites</h2>
-        {% for category,docs in data.docs_categories %}
-        <a href="{{ site.url }}/categories/{{ category|url_encode(true) }}">{{ category }}</a>
+    <div class="col-md-4 thumbnail">
+        <h2><svg width="35px" height="40px" viewBox="0 0 35 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <a data-proofer-ignore xlink:href="https://pantheon.io/features/drupal-hosting" target="blank">
+            <defs></defs>
+            <g id="Step-2-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="1200" transform="translate(-50.000000, -1432.000000)" fill="#EFD01B">
+                <g id="FEATURES" transform="translate(0.000000, 1248.500000)">
+                  <g id="Row-1" transform="translate(50.000000, 183.000000)">
+                    <g id="Drupal">
+                      <path d="M31.0258889,12.5733502 C26.6394701,7.10771194 23.0821915,6.64544402 20.8622356,5.34021698 C19.2574483,4.41568115 17.7863932,2.78414734 15.8873948,0.5 C15.7536625,1.72365036 15.6199303,2.97449295 14.844283,3.87183654 C13.2929886,5.66652374 11.1532721,6.75421295 9.44149894,7.62436431 C5.05508017,9.82693496 9.23705556e-14,14.9390742 9.23705556e-14,23.1239355 C9.23705556e-14,27.0940011 1.49780153,31.3631813 4.33292586,34.6262489 C7.35527538,38.1340466 11.8754264,40.5269629 17.2514641,40.4997706 C22.0390797,40.4725784 25.9975552,38.895429 28.9396653,36.2849749 C32.3899581,33.2394452 34.5029282,28.7799194 34.5029282,23.1239355 C34.4761817,18.9635243 33.2725912,15.3469577 31.0258889,12.5733502 L31.0258889,12.5733502 Z M26.1847804,36.883204 C24.0718103,38.6778912 18.3213223,39.7111959 15.6199303,37.4270486 C15.3524657,37.2095108 15.3524657,36.8560118 15.5129444,36.6656662 C15.6466767,36.529705 15.7536625,36.4481283 15.9141413,36.3665516 C16.1013665,36.2577827 16.368831,36.2849749 16.5293098,36.4481283 C17.599168,37.4542408 22.6809946,38.2972 25.7300906,36.2305905 C25.8370764,36.1490138 25.9975552,36.0946293 26.104541,36.1490138 C26.1847804,36.176206 26.2650197,36.2305905 26.2650197,36.3393594 C26.2917662,36.5025128 26.3185126,36.7472429 26.1847804,36.883204 L26.1847804,36.883204 Z M19.0434766,34.163981 C19.0434766,33.8920587 19.123716,33.7560975 19.3109412,33.5657519 C20.354053,32.5052549 21.4774041,31.8798336 22.7077411,31.9070259 C24.6869788,31.9614103 24.7939646,32.4236783 25.3556402,33.6201364 C25.462626,33.8648665 25.4091331,34.0552121 25.3288938,34.1911732 C25.2754009,34.2455577 25.0614292,34.4902877 24.9811898,34.4902877 C24.7939646,34.4902877 24.7137253,34.4087111 24.6334859,34.2183654 C24.1520497,33.0219073 23.4566419,32.9947151 22.5740088,32.9947151 C21.2099396,32.9947151 20.5947711,33.6745208 19.7923774,34.3543266 C19.5784057,34.51748 19.3911806,34.6534411 19.2574483,34.51748 C19.1504624,34.4087111 19.0434766,34.2727499 19.0434766,34.163981 L19.0434766,34.163981 Z M29.7153125,33.7017131 C27.8163142,33.5657519 25.6765977,29.1062262 23.5903741,29.1334184 C20.8354892,29.1878029 16.7967743,33.8920587 12.2498768,33.8376742 C9.92293515,33.810482 7.43551475,32.9403306 7.35527538,29.3509562 C7.30178247,26.3598109 10.1636533,23.2598967 13.8011713,23.3414734 C18.6422798,23.4502423 21.0227144,27.7738069 23.4566419,27.7738069 C25.8370764,27.8009991 28.6187078,24.0212791 31.0258889,23.9668947 C32.3097188,23.9397024 33.2993376,25.190545 33.379577,26.9308478 C33.5668022,29.5684941 31.9085219,33.8920587 29.7153125,33.7017131 L29.7153125,33.7017131 Z" id="Shape"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </a>
+        </svg> Drupal</h2>
+        {% for drupal in data.featured_drupal|slice(0, 5) %}
+            <a style="font-weight:bold" href="{{ drupal.url }}">{{ drupal.title }}</a><br>
+        {% endfor %}
+        <a href="/docs/categories/drupal">More...</a>
+    </div>
+    <!--Changelog Thumbnail-->
+    <div class="col-md-4 thumbnail">
+        <h2><span class="flaticon-blog2"></span> WordPress</h2>
+        {% for wordpress in data.featured_wordpress|slice(0, 5) %}
+            <a style="font-weight:bold" href="{{ wordpress.url }}">{{ wordpress.title }}</a><br>
+        {% endfor %}
+        <a href="/docs/categories/wordpress">More...</a>
+    </div>
+    <!--Changelog Thumbnail-->
+    <div class="col-md-4 thumbnail">
+        <h2><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Local</h2>
+        {% for local in data.featured_local|slice(0, 5) %}
+            <a style="font-weight:bold" href="{{ local.url }}">{{ local.title }}</a><br>
+        {% endfor %}
+        <a href="/docs/categories/local">More...</a>
+    </div>
+    <!--Changelog Thumbnail-->
+    <div class="col-md-4 thumbnail">
+        <h2><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Sites</h2>
+        {% for sites in data.featured_sites|slice(0, 5) %}
+            <a style="font-weight:bold" href="{{ sites.url }}">{{ sites.title }}</a><br>
         {% endfor %}
         <a href="/docs/categories/sites">More...</a>
-      </div>
-    </div>
-    <!--Required Reading Thumbnail-->
-    <div class="col-md-6 thumbnail">
     </div>
     <!--Changelog Thumbnail-->
-    <div class="col-md-6 thumbnail" style="padding-top: 22px; margin: 15px auto 15px auto">
-        <a href="/changelog">
-        <h2 align="middle"><span style="margin-right: 10px;" class="glyphicon glyphicon-wrench" aria-hidden="true"></span>Changelog</h2></a>
-        <p align ="middle">Recent platform and documentation changes</p>
+    <div class="col-md-4 thumbnail">
+        <h2><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Organizations</h2>
+        {% for organizations in data.featured_organizations|slice(0, 5) %}
+            <a style="font-weight:bold" href="{{ organizations.url }}">{{ organizations.title }}</a><br>
+        {% endfor %}
+        <a href="/docs/categories/organizations">More...</a>
     </div>
-    <!--Changelog Thumbnail-->
-    <div class="col-md-6 thumbnail" style="padding-top: 22px; margin: 15px auto 15px auto">
-        <a href="/docs/power-users">
-        <h2 align="middle"><span style="margin-right: 10px;" class="glyphicon glyphicon-user" aria-hidden="true"></span>Power Users Group</h2></a>
-        <p align ="middle">Share best practices with other active users</p>
+    <div class="col-md-4 thumbnail">
+        <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Users</h2>
+        {% for users in data.featured_users|slice(0, 5) %}
+            <a style="font-weight:bold" href="{{ users.url }}">{{ users.title }}</a><br>
+        {% endfor %}
+        <a href="/docs/categories/users">More...</a>
     </div>
+
 </div>

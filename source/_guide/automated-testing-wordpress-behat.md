@@ -4,6 +4,7 @@ description: Understand how to use Behat to write automated tests for your Panth
 categories:
   - developing
   - WordPress
+type: wordpress
 authors:
   - ari
 date: 3/31/2015

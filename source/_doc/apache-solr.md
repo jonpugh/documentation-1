@@ -1,6 +1,7 @@
 ---
 title: Apache Solr on Pantheon
 description: Detailed information on using Apache Solr on the Pantheon Website Management Platform.
+type: sites
 categories:
     - drupal
     - developing

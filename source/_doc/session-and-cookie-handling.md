@@ -4,6 +4,7 @@ description: Details about configuring settings for session expiration and cooki
 categories:
   - developing
   - drupal
+type: drupal
 keywords: drupal, session expiration, cookie lifetime, session,
 ---
 Pantheon allows developers to control the length of sessions. There are two pieces; the lifetime of the cookie and the lifetime of the session itself.  

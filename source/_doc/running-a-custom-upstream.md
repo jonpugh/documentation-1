@@ -1,6 +1,7 @@
 ---
 title: Running a Custom Upstream on Pantheon
 description: Detailed information about running custom distributions.
+type: organizations
 categories:
   - getting-started
   - managing

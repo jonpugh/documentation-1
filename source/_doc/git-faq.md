@@ -1,6 +1,7 @@
 ---
 title: Git FAQs
 description: Answers to commonly asked questions about Git, Drupal 7, Drupal 6 and Pantheon.
+type: local
 categories:
   - local
   - sites

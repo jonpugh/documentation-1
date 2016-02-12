@@ -5,6 +5,7 @@ categories:
   - getting-started
   - developing
   - WordPress
+type: wordpress
 keywords: plugins, wordpress, pantheon
 ---
 Pantheon maintains multiple plugins to facilitate its workflow within WordPress. Please feel free to contact us if you have any concerns with these plugins.
