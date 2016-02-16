@@ -1,11 +1,6 @@
 ---
 title: Migrating Sites from WP Engine to Pantheon
 description: Get all the details you need to know to successfully migrate your site away from WP Engine.
-categories:
-  - WordPress
-  - getting-started
-  - developing
-keywords: wordpress, pantheon, wpengine
 ---
 The easiest way to migrate your site is to use the [Pantheon Migration Plugin](https://wordpress.org/plugins/bv-pantheon-migration/) created by BlogVault, but you can also migrate manually.
 
@@ -44,7 +39,7 @@ You may need to preserve logic in <code>wp-config.php</code> after the migration
 5. Move the `mysql.sql` database out of the `wp-content` directory and into the project's root directory.
 6. Compress the archive: Larger sites may need to [create separate archives](/docs/export-an-existing-wordpress-site#manually-create-separate-site-archives).
 7. Import your site:
-      - **Via the Importer tool**: The importer accepts either single-file site archives or separate archives of the code, database, and files (100MB for file uploads, 500MB for URL uploads). Import during the creation process of your new site on Pantheon. For details, see [Migrate to Pantheon: The Importer Tool](/docs/#plan-the-import). 
+      - **Via the Importer tool**: The importer accepts either single-file site archives or separate archives of the code, database, and files (100MB for file uploads, 500MB for URL uploads). Import during the creation process of your new site on Pantheon. For details, see [Migrate to Pantheon: The Importer Tool](/docs/#plan-the-import).
       - **Manual import**: Manually import the site outside of our importer tool if your site exceeds file size limit for uploads or if you need to preserve the site's existing Git history. For details, see [Migrate to Pantheon: Manual Site Import](/docs/manual-site-import).
 8. Test your site once the code, database, and files are all in place. Verify everything is working as expected. At the Site Dashboard, click **Visit Development Site** for verification.
 

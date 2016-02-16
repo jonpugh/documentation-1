@@ -1,7 +1,6 @@
 ---
 title: Debugging Connectivity Issues
 description: Learn how to test and resolve connectivity issues.
-keywords: debugging, connection issues, connectivity issues
 ---
 
 ##Connectivity Error Message

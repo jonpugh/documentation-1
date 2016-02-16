@@ -1,8 +1,6 @@
 ---
 title: Drupal on Pantheon
 description: Drupal is an open source content management platform powering millions of websites and applications.
-categories: drupal
-keywords: drupal, sites, pantheon, upstream
 ---
 
 [Drupal](https://www.drupal.org) is an open source content management platform powering millions of websites and applications. It’s built, used, and supported by an active and diverse community of people around the world.

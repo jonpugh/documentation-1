@@ -1,12 +1,11 @@
 ---
 title: Extracting Sites from a Drupal Multisite
 description: Learn how to separate the codebases to import individual sites to Pantheon.
-keywords: drupal, multisite
 ---
 
 Pantheon only supports one application codebase and one database per site. We do not recommend using database prefixes or offer support for Drupal Multisite implementations. If you are currently struggling with a Drupal Multisite and want to use Pantheon, you'll need to "unwind" the implementation, separating it into individual sites. You may also create a custom upstream if appropriate for your use-case.
 
-## Migrate One Site Out of a Multisite to Pantheon 
+## Migrate One Site Out of a Multisite to Pantheon
 
 This method will safely migrate a single site out of your Drupal Multisite and into Pantheon. You may experience some issues, such as  warnings from Launch Check about multisite, but they are generally false positives, and you can clean that up once the site is liberated and on it's own.
 

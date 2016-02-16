@@ -1,7 +1,6 @@
 ---
 title: The Pantheon Deploy Log
 description: Learn how to use the Deploy Log to manage updates, feature releases and more.
-keywords: deploy, deploy log, how to deploy, deploying
 ---
 Whether you're working on a new feature or fixing up bugs, the Deploy Log helps you group a batch of commits into a single deployment. Best practice is to keep logical groups of edits together and then summarize those groups with a single deployment message.
 

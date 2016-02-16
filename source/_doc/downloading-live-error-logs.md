@@ -1,7 +1,6 @@
 ---
 title: Automate Downloading Logs from the Live Environment
 description: Learn how to automate downloading logs from the Live environment of your site for debugging.
-keywords: debug, debugging sites, debug sites, debugging site, debugging mysql, debug sql, troubleshoot mysql, troubleshoot sql, database logs, db logs, where are db logs stored, where are database logs, live logs, download logs, download log, access logs, get logs
 ---
 
 Logs help you find, debug, and isolate current or potential problems on your live site. You can automate the process of accessing and maintaining these logs with a simple script.

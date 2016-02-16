@@ -1,9 +1,6 @@
 ---
 title: Cron for Drupal
 description: Understanding how Pantheon cron execution and cron management works on your site.
-categories:
-  - developing
-keywords: drupal, cron, cron execution, run cron,
 ---
 Cron is a time-based task scheduler that can be configured to automatically execute tasks without any manual involvement beyond the initial configuration.
 

@@ -1,9 +1,6 @@
 ---
 title: Pantheon Organizations FAQs
 description: Commonly asked questions and answers about Agency Partner Organizations using the Pantheon Platform.
-categories:
-- managing
-keywords: agency, p4a, multidev, change management, elite, site owner, ownership, supporting organization, organizations, team, roles, privileges, support, partner support, ticket
 ---
 ## Multidev
 

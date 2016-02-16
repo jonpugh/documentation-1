@@ -1,9 +1,6 @@
 ---
 title: Managing Upstreams
 description: Detailed information on how to merge updates to core, extensions, and themes running on Pantheon.
-categories:
-  - managing
-keywords: upstream, update upstream, apply updates, apply update, update core, update plugin, update module, update theme, update distribution, distribution, branch, deploy update, deploy updates, update, updates
 ---
 Upstream maintainers bear the responsibility of updating Drupal and WordPress core for their users each time the project releases a new version. Upstreams that are not kept up-to-date with core security updates of either framework are removed from the platform.
 
@@ -49,7 +46,7 @@ Using the testing site created when you submitted your distribution, test your u
 
 ## Update Release Branching Strategy
 
-We encourage you to use a continuous integration server, like Jenkins, Travis-CI, or Circle-CI, to automate this process. 
+We encourage you to use a continuous integration server, like Jenkins, Travis-CI, or Circle-CI, to automate this process.
 
 For example:
 

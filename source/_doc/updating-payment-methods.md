@@ -1,10 +1,6 @@
 ---
 title: Updating Payment Methods
 description: Learn how to update a credit card as a payment method for your Pantheon Drupal or WordPress site.
-type: users
-categories:
-  - managing
-keywords: payment, payment method, credit card, add card, update card
 ---
 Easily add a new credit card or edit the existing payment method of a site from within the Dashboard.
 

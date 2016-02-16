@@ -2321,3 +2321,37 @@ display: block;
     border-radius: 4px;
     margin: 15px 15px 0px 0px;
 }
+.jumbotron {
+  text-align: left;
+  background-color: transparent;
+}
+.featured-docs {
+  margin:0 auto;
+  float:none;
+  max-width:800px;
+}
+.jumbotron>p>a:hover{
+  text-decoration: none;
+}
+.featured-docs h2{
+  text-align: center;
+
+}
+.featured_docs a{
+  text-align: center;
+  text-decoration: none;
+  font-weight: 200;
+}
+.featured_docs h1{
+  font-weight: 200;
+  margin: 0px;
+}
+.featured_docs h1:after{
+  content: '';
+}
+.featured_docs small{
+  padding-left: 10px;
+}
+.jumbotron small{
+  padding-left: 10px;
+}

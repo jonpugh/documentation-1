@@ -1,9 +1,6 @@
 ---
 title: Organizations
 description: Detailed information on Pantheon organization types and the features available to them.
-categories:
-- managing
-keywords: pantheon, pantheon for agencies, org, organization, org dashboard, change management
 ---
 
 Pantheon Organizations bring together users, sites, custom upstreams, and support tickets; and provide administrators with the tools needed to effectively manage a large number of sites.

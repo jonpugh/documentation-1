@@ -1,10 +1,6 @@
 ---
 title: Using SimpleSAMLphp with Shibboleth SSO
 description: Using SimpleSAMLphp to configure a single sign-on system for your Drupal site.
-categories:
-  - drupal
-  - developing
-keywords: drupal, simplesamlphp, shibboleth sso, sso, saml, single-sign on,
 ---
 Start by following the SimpleSAMLphp's [service provider quickstart instructions](http://simplesamlphp.org/docs/1.9/simplesamlphp-sp). This documentation contains only the necessary extra steps to get it working on Pantheon.
 <div class="alert alert-info" role="alert">

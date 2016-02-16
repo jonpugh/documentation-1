@@ -1,9 +1,6 @@
 ---
 title: WordPress Pantheon Cache Plugin Configuration
 description: Optimize WordPress and Varnish caching to maximize your site's performance.  
-categories:
-  - WordPress
-keywords: WordPress, performance, cache, caching, varnish, varnish caching
 ---
 Pantheon maintains an [optimized version of WordPress](https://github.com/pantheon-systems/WordPress) that includes a plugin to control cache expiration. By default, pages will expire from the Varnish Edge Cache after 10 minutes (600 seconds). The plugin sets a default HTTP header: `Cache-Control: public, max-age=600`
 
@@ -26,7 +23,7 @@ You'll want to strike a balance between freshness of content and speed. We recom
 
 Within the `pantheon-cache.php` file that houses the Pantheon Cache plugin code, there are three functions that are useful to developers. You can call them from within your own custom code using various WordPress hooks, such as [save_post()](https://codex.wordpress.org/Plugin_API/Action_Reference/save_post). Currently, the [limit on the number of paths](https://github.com/pantheon-systems/WordPress/issues/24) that can be cleared in a single call is 10.
 
-### flush_site 
+### flush_site
 Flushes the site cache for the entire site. This achieves the same result as the Clear Site Cache button on the Pantheon Cache administration page.
 
 ```

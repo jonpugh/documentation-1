@@ -1,9 +1,8 @@
 ---
 title: Varnish Caching - Drupal and WordPress Advanced Topics
 description: Learn advanced details about cache and authentication.
-categories:
-  - developing
-keywords: cache, caching, varnish, pantheon_stripped, cookies, wordpress,drupal, authentication, Pantheon
+categories: [sites]
+tags: [varnish]
 ---
 ## Allow a User to Bypass the Cache
 

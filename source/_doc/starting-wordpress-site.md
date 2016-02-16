@@ -1,10 +1,6 @@
 ---
 title: Launching a WordPress Site
 description: Detailed information on creating a new Pantheon WordPress site.  
-categories:
-  - going-live
-  - WordPress
-keywords: going live, wordpress, launch site, create a site
 ---
 ## Create and Name Your Site
 

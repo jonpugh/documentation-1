@@ -1,7 +1,6 @@
 ---
 title: Enable HTTPS for Sites Using Customized Base Domains
 description: Learn how to enable HTTPS for all sites using your Organization's customized base domain.
-keywords: https development domain, base domain, change dev url, change development domain, change base domain, dev url, wildcard, cname, edge, dns, https
 ---
 Enable HTTPS across all sites using your organization's customized base domain by adding a wildcard certificate to the primary site.
 
