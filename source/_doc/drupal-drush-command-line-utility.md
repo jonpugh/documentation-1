@@ -1,7 +1,8 @@
 ---
 title: Drupal Drush Command-Line Utility
 description: Administer and maintain your site from your local Drupal Drush installation.
-type: local
+categories: [local, drupal]
+tags: [drush, terminus]
 ---
 [Drush](http://drush.org) is a command-line interface for Drupal that provides a wide set of utilities for administering and maintaining your site.
 

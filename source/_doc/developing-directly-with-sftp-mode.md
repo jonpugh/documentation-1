@@ -1,6 +1,8 @@
 ---
 title: Developing on Pantheon Directly with SFTP Mode
 description: Detailed information on how to use SFTP Mode to directly develop on Pantheon Website Management Platform environments.
+categories: [sites]
+tags: [code, dashboard, sftp]
 ---
 In some cases, working via `git` is not the best option. You may not like local development, or you may want to show work to a remote collaborator (or client) immediately, or need to debug a specific problem that only occurs on the Pantheon platform.
 

@@ -1,6 +1,8 @@
 ---
 title: Automate Downloading Logs from the Live Environment
 description: Learn how to automate downloading logs from the Live environment of your site for debugging.
+categories: [sites]
+tags: [code, logs]
 ---
 
 Logs help you find, debug, and isolate current or potential problems on your live site. You can automate the process of accessing and maintaining these logs with a simple script.

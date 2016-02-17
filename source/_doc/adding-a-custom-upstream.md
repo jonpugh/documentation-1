@@ -2,8 +2,7 @@
 title: Create a Custom Upstream
 description: Add and test a custom distribution of WordPress or Drupal on the Pantheon website management platform.
 categories: [organizations]
-tags: [dashboard]
-keywords: custom upstream, distribution, remote repository, upstream
+tags: [code]
 ---
 Create a custom distribution of WordPress or Drupal and add it to the Pantheon platform. This will enable users of the affiliated organization to create sites using a specialized codebase as a starting point.
 

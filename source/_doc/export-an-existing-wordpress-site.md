@@ -1,6 +1,8 @@
 ---
 title: Export an Existing WordPress Site
 description: Detailed information on how to prepare and export your existing Drupal site for migration to Pantheon.
+categories: [migrate, wordpress]
+tags: [infrastructure, code]
 ---
 
 There are three major components of a WordPress site:

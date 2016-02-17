@@ -2,7 +2,7 @@
 title: Cloning an Existing Site from a Dashboard Backup
 description: Detailed information on how to make a copy of your existing Drupal or WordPress site code, files, and database.
 categories: [sites, users]
-tags: [dashboard, code, backups]
+tags: [dashboard, code, backups, git]
 ---
 All Pantheon sites consist of three parts:
 

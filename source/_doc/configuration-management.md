@@ -1,6 +1,5 @@
 ---
 title: Configuration Workflow for Drupal 8 Sites
-type: drupal
 description: Configure Drupal's performance and caching settings to make significant improvements.
 categories: [drupal]
 tags: [code, domains, drupal 8]

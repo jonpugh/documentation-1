@@ -1,6 +1,8 @@
 ---
 title: Git FAQs
 description: Answers to commonly asked questions about Git, Drupal 7, Drupal 6 and Pantheon.
+categories: [local]
+tags: [git, code]
 ---
 
 ## Resolving Conflicts

@@ -1,6 +1,8 @@
 ---
 title: Debugging Connectivity Issues
 description: Learn how to test and resolve connectivity issues.
+categories: [sites]
+tags: [code, databases, sftp]
 ---
 
 ##Connectivity Error Message

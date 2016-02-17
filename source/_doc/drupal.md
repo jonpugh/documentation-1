@@ -1,6 +1,8 @@
 ---
 title: Drupal on Pantheon
 description: Drupal is an open source content management platform powering millions of websites and applications.
+categories: [drupal, sites]
+tags: [code, drupal 8, drupal 7]  
 ---
 
 [Drupal](https://www.drupal.org) is an open source content management platform powering millions of websites and applications. It’s built, used, and supported by an active and diverse community of people around the world.

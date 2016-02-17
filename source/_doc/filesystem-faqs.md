@@ -1,6 +1,8 @@
 ---
 title: Filesystem Writable Error
 description: Understand writable errors and the Pantheon website management system architecture.
+categories: [drupal]
+tags: [infrastructure, code]
 ---
 #### Why Does the Pantheon Dashboard List My File System as: Error, Writable (public download method)?
  ![Launch check file system error](/source/assets/images/desk_images/284378.png)  

@@ -1,6 +1,8 @@
 ---
 title: Export an Existing Drupal Site
 description: Detailed information on how to prepare and export your existing Drupal site for migration to Pantheon.
+categories: [migrate, drupal]
+tags: [infrastructure, code]
 ---
 
 There are three major components of a Drupal site:

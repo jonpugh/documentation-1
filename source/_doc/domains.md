@@ -1,6 +1,8 @@
 ---
 title: Domains and DNS
 description: Detailed information on adding a domain to your Pantheon Drupal or WordPress site.
+categories: [sites]
+tags: [code, domains]
 ---
 Configuring your domain's DNS is required to route traffic to your Pantheon site.
 

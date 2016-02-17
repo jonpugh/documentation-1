@@ -1,10 +1,6 @@
 ---
 title: Automated Testing for WordPress with Behat
 description: Understand how to use Behat to write automated tests for your Pantheon WordPress sites.
-categories:
-  - developing
-  - WordPress
-type: wordpress
 authors:
   - ari
 date: 3/31/2015

@@ -1,6 +1,8 @@
 ---
 title: External Libraries on Pantheon
 description: Learn to incorporate external libraries on the Pantheon Website Management Platform.
+categories: [sites]
+tags: [code]
 ---
 There are some scenarios when an external library is required. Pantheon has installed a number of common libraries that are available on the platform.
 

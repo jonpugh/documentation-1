@@ -2,7 +2,7 @@
 title: Varnish Caching - Drupal and WordPress Advanced Topics
 description: Learn advanced details about cache and authentication.
 categories: [sites]
-tags: [varnish]
+tags: [varnish, infrastructure]
 ---
 ## Allow a User to Bypass the Cache
 
@@ -18,7 +18,7 @@ This allows users to immediately see comments or changes they've made, even if t
 
 For the purpose of optimizing cache hits for identical content, Varnish ignores any GET parameter prefixed with `__` (two underscores) or `utm_` in determining the cache key. This optimization is compatible with services such as Google Analytics and AdWords that use these query parameters solely for tracking and do not alter the page content returned by the application server. The double-underscore prefix for parameter keys and cookie names is a standard convention used by front-end code to indicate a value that can be safely ignored on the back-end.
 
-For example, <tt>?__dynamic_id=1234</tt> is ignored, while <tt>?dynamic_id=1234</tt> and <tt>?_dynamic_id</tt> are considered distinct pages.
+For example, `?__dynamic_id=1234` is ignored, while `?dynamic_id=1234` and `?_dynamic_id` are considered distinct pages.
 
 The query parameters are still passed to the application server, however the values are replaced with `PANTHEON_STRIPPED` to indicate that cache optimization is in effect for this parameter. Avoid using these parameters in ways that alter content in the response.
 
@@ -107,7 +107,7 @@ STYXKEY is not a replacement for responsive design.</div>
 
 &#8211; `STYXKEY.tablet`: The only valid characters are a-z, A-Z, 0-9, hyphens ("-"), and underscores ("\_")
 
-&#8211; `tablet-STYXKEY`: The cookie name must start with `STYXKEY
+&#8211; `tablet-STYXKEY`: The cookie name must start with `STYXKEY`
 
 
 ## Varnish Servers

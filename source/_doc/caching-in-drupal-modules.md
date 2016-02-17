@@ -1,7 +1,7 @@
 ---
 title: Caching in Drupal Modules
 description: Configure Drupal's performance and caching settings to make significant improvements.
-categories: [drupal, sites]
+categories: [drupal]
 tags: [varnish, code, modules]
 ---
 While configuring [Drupal's performance and caching settings](/docs//drupal-performance-and-caching-settings) and using [redis as a Drupal caching backend](/docs/redis-as-a-caching-backend) will make a significant performance difference, not every module uses Drupal's caching out of the box.

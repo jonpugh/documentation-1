@@ -1,6 +1,8 @@
 ---
 title: Drupal Performance and Varnish Caching Settings
 description: Optimize Drupal and Varnish caching to maximize your site's performance.  
+categories: [sites]
+tags: [code, varnish, drupal 7]  
 ---
 To maximize your site's performance on Pantheon and to take advantage of our Varnish caching, you'll need to configure your site's performance settings.​ For more information, see  [Varnish Caching for High Performance](/docs/varnish).
 

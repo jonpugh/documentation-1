@@ -18,35 +18,6 @@ sculpin_content_types:
             - authors
         permalink: docs/:slug_title/
 
-    featured_docs:
-        type: meta
-        meta: featured  # matches any source with "type: featured" metadata
-        layout: doc
-    featured_drupal:
-        type: meta
-        meta: drupal  # matches any source with "type: featured" metadata
-        layout: doc
-    featured_wordpress:
-        type: meta
-        meta: wordpress  # matches any source with "type: featured" metadata
-        layout: doc
-    featured_local:
-        type: meta
-        meta: local  # matches any source with "type: featured" metadata
-        layout: doc
-    featured_sites:
-        type: meta
-        meta: sites  # matches any source with "type: featured" metadata
-        layout: doc
-    featured_organizations:
-        type: meta
-        meta: organizations  # matches any source with "type: featured" metadata
-        layout: doc
-    featured_users:
-        type: meta
-        meta: users  # matches any source with "type: featured" metadata
-        layout: doc
-
     guides:
         type: path
         path: _guide

@@ -1,5 +1,5 @@
 ---
-title: Apache Solr on Pantheon
+title: Apache Solr
 description: Detailed information on using Apache Solr on the Pantheon Website Management Platform.
 categories: [sites]
 tags: [code]

@@ -1,6 +1,8 @@
 ---
 title: Debugging Slow Performance
 description: Detailed information on how to identify common problems with Drupal or WordPress performance speeds and deploy solutions.
+categories: [sites]
+tags: [code, logs, databases]
 ---
 This article covers the most common causes for performance problems, demonstrates how to diagnose bottlenecks, and provides actionable solutions for developers.
 

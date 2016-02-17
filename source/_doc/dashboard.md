@@ -1,6 +1,8 @@
 ---
 title: Managing Sites and Teams with the Pantheon Organization Dashboard
 description: Detailed information on how to add users and sites to your organization.
+categories: [users, sites]
+tags: [dashboard]
 ---
 The Organization Dashboard is where you manage all your sites in a single location. You can access support tickets, add or remove team members, and manage new or existing sites.
 

@@ -1,6 +1,8 @@
 ---
 title: Get Started
 description: Learn how to create a Drupal or WordPress site on Pantheon.
+categories: [users, sites]
+tags: [create]
 ---
 <img src="/source/assets/images/icon-launch-k.svg" alt="Launch Icon" style="float:left;margin-left:0px;margin-right:20px;margin-top:15px;margin-bottom:0px;border:0;max-height:80px;"><p style="padding-top:20px;margin-right:0px;">Welcome to Pantheon, the world’s fastest hosting for Drupal and WordPress. In a few simple steps, your site will be up and running on our distributed infrastructure with no single points of failure.</p>
 ## Create Your Free Account
