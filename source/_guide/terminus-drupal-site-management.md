@@ -144,7 +144,7 @@ You should now be able to open a web browser and see your brand new Drupal site!
 open http://dev-terminus-cli-create.pantheon.io
 ```
 
-![Dev environment in browser](/source/assets/images/terminus-cli-open-http.png)
+![Dev environment in browser](/source/docs/assets/images/terminus-cli-open-http.png)
 
 There is also the `terminus site dashboard` command if, at any point in time, you want to open the site's Pantheon Dashboard.
 
@@ -153,7 +153,7 @@ $ terminus site dashboard --site=terminus-cli-create
 Do you want to open your dashboard link in a web browser? [y/n] y
 ```
 
-![Dashboard in browser](/source/assets/images/terminus-cli-open-dash.png)
+![Dashboard in browser](/source/docs/assets/images/terminus-cli-open-dash.png)
 
 Also, the status of each of the environments within the site can be seen using a `terminus site environments` command.
 
@@ -206,7 +206,7 @@ Success: Successfully committed.
 
 Open the Pantheon Dashboard, and you'll see the new files are shown in the Git commit log.
 
-![The dashboard's showing the code was deployed to the Dev environment](/source/assets/images/terminus-cli-code-committed-dashboard.png)
+![The dashboard's showing the code was deployed to the Dev environment](/source/docs/assets/images/terminus-cli-code-committed-dashboard.png)
 
 To see what a commit message looks like, let's download Bootstrap and then commit it as well.
 
@@ -228,7 +228,7 @@ Success: Successfully commited.
 +---------------------+---------+-----------+------------------------------------------+-------------------+
 ```
 
-![The dashboard's showing the code was deployed to the Dev environment](/source/assets/images/terminus-commit-with-message.png)
+![The dashboard's showing the code was deployed to the Dev environment](/source/docs/assets/images/terminus-commit-with-message.png)
 
 And finally, let's create the Test environment to move the code, files, and DB from Dev onward in the Pantheon workflow using `create-env`.
 

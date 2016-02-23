@@ -4,7 +4,7 @@ description: Learn how to use the Pantheon Site Dashboard to build and manage yo
 ---
 The Site Dashboard is where you can find all the tools you need to successfully build, launch, and manage your site.
 
-![Site Dashboard](/source/assets/images/site-dashboard-image.png)
+![Site Dashboard](/source/docs/assets/images/site-dashboard-image.png)
 
 At the top of the page you'll find all the environments for your site: Dev, Test, and Live. Additional development environments are available with [Multidev](/docs/multidev/).
 

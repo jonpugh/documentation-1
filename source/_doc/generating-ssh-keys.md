@@ -61,7 +61,7 @@ Before you can generate an SSH key, you'll need to [download](http://git-scm.com
 1. Sign in to Pantheon and go to the **Account** page.
 2. Click **SSH Keys**.
 3. Paste the copied public key into the box, and click **Add Key**.  
-![Adding SSH Keys](/source/assets/images/add-ssh-key-dashboard.png)
+![Adding SSH Keys](/source/docs/assets/images/add-ssh-key-dashboard.png)
   Your computer is now set up to securely connect to the Pantheon Git server.  
 5. Open the Git bash client, and put in the command to clone your Pantheon site. This is found in the Dev environment of your site above the Git code log.
 6. If prompted, enter the password.

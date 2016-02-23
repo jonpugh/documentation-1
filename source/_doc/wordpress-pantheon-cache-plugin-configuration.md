@@ -14,7 +14,7 @@ You can increase the default value to increase the chances that a visitor will r
 4. Adjust the **Default Cache Time** as desired.
 5. Click **Save Changes**.
 
-![WordPress Pantheon Cache Plugin settings](/source/assets/images/WordPress_Pantheon-Cache-Settings.png)
+![WordPress Pantheon Cache Plugin settings](/source/docs/assets/images/WordPress_Pantheon-Cache-Settings.png)
 
 You'll want to strike a balance between freshness of content and speed. We recommend a minimum of 600 seconds.  If you can increase the setting to 30 minutes (1800 seconds) or 1 hour (3600 seconds), many more requests will hit the Edge Cache. Every page served from the Edge Cache won't hit your application container's PHP workers or MySQL database, which means faster page load times and a better user experience for site visitors.
 

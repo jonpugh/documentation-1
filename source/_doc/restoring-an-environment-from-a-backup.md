@@ -4,13 +4,13 @@ description: Detailed information on how to safely restore a Drupal or WordPress
 ---
 Each site environment's backups are located on the Backups tab for the environment in the Pantheon Dashboard.  
 
-![Backup Subtab](/source/assets/images/desk_images/169631.png)
+![Backup Subtab](/source/docs/assets/images/desk_images/169631.png)
 
 ## Restore an Environment From Its Own Backup
 
 Restore each manual and automatic backup by clicking the **Restore** button to the right of a backup. This is the recommended and easiest method.
 
-![Backups and Restore Button](/source/assets/images/desk_images/169624.png)
+![Backups and Restore Button](/source/docs/assets/images/desk_images/169624.png)
 
 This is a **destructive** process that will **wipe** your database and files, and restore them from the backup. It will also restore the codebase to the state the environment was in at that time.
 
@@ -29,7 +29,7 @@ If you want to restore a different environment than the source, you have two opt
 Regardless of the option you choose, restoring is basically the same process.
 
 In the source environment, find the backup that you want to retrieve, then for each of the three backup parts (code, database, and files), click the download link:<br />
- ![Temporary backup link](/source/assets/images/desk_images/169628.png)  <br />
+ ![Temporary backup link](/source/docs/assets/images/desk_images/169628.png)  <br />
 This provides a temporary private link directly from Amazon S3, the external backup host. These links will expire after a few minutes; if the link is no longer working, return to the Dashboard and get a new link. If you want to directly download the backup part (required for code), click **Direct Download**. Otherwise, copy the provided URL.  
 
 If you want to download a backup using wget, put the provided temporary link in double quotes:
@@ -74,7 +74,7 @@ If `reset` was used above, you will need to include the `--force` option to push
 Once you have the downloaded parts and/or links, navigate to the target environment and click the **Workflow** tab.  
 
 If you have an existing database or file archive that you want to import from an external source, you can also upload the content here.  
-![Workflow Tab](/source/assets/images/desk_images/169632.png)  
+![Workflow Tab](/source/docs/assets/images/desk_images/169632.png)  
 If using URLs, paste the URL (if using the direct Amazon S3 URL or another self hosted option), or choose **File** to upload an archive.  
 
 Once the URL or file is specified, click **Import** for each backup part to start the process.  

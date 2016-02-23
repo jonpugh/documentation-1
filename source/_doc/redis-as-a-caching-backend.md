@@ -98,10 +98,10 @@ The common community module for Drupal to use Redis is simply called [redis](htt
 7. Enable the module via `admin/build/modules`. This is necessary for cache clearing to work in all cases.
 
 8. Check that Redis is working. If the Redis Cache Connection string is being generated, Redis is enabled. Connect to test that its working:
-![Redis connect string](/source/assets/images/desk_images/301638.png)
+![Redis connect string](/source/docs/assets/images/desk_images/301638.png)
  - For Drupal 7 visit `/admin/config/development/performance/redis` and open **Connection Information**.
 
- ![Drupal 7 configuring Redis](/source/assets/images/desk_images/71423.png)
+ ![Drupal 7 configuring Redis](/source/docs/assets/images/desk_images/71423.png)
  - For Drupal 6 visit  `admin/settings/performance/cache-backend` and you should be able to see the available backends and their statuses.
 
 ### Using Redis with Drupal 8

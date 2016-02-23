@@ -396,35 +396,6 @@ img.noborder {
 }
 
 /*
-* CTA Button CSS for Contributors "CONTRIBUTE TO DOCS"
-*/
-#contrib-cta-btn .btn-secondary, .btn-secondar:visited {
-    text-shadow: none !important;
-    background: #D5D5D5;
-    color: #000 !important;
-    margin: 0px 0px 2px 0px !important;
-    padding: 12px 22px 12px 16px;
-    text-decoration: none !important;
-    font-weight: bold;
-    display: inline-block;
-    white-space: nowrap !important;
-    line-height: 1;
-    border-color: transparent;
-    border: none;
-    text-transform: uppercase;
-    margin-left: 0px;
-}
-
-#contrib-cta-btn a {
-    margin-left: 20px;
-    margin-right: 40px;
-    text-decoration: none;
-    font-size: medium;
-}
-#contrib-cta-btn a:hover {
-    text-decoration: none;
-}
-/*
 * Footer
 *
 * Separated section of content at the bottom of all pages, save the homepage.
@@ -1503,19 +1474,8 @@ h1[id] {
     background-image: none !important;
 }
 .btn-primary, .btn-primary:visited, .btn-primary:focus {
-  text-shadow: none !important;
-  background: #D5D5D5;
-  color: #000 !important;
-  text-decoration: none !important;
-  font-weight: 200;
-  display: inline-block;
-  font-size: 12px;
-  white-space: nowrap !important;
 }
 .btn-primary:hover {
-  color: #000;
-  text-decoration: none;
-  background: #EFD01B;
 }
 
 a.btn-primary:after {

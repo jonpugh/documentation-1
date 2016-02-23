@@ -36,7 +36,7 @@ You can configure PHPStorm to recognize WP-CLI from within your project by follo
 1. From Preferences > [Command Line Tool Support](http://www.jetbrains.com/phpstorm/webhelp/command-line-tool-support.html), click **+**.
 1. Choose the tool **WP-CLI**, and click **OK**.
 1. Select **Executable Available** and enter the file path to your local `wp` directory and click **OK**.  
- ![Configuring wp-cli path for PHPStorm](/source/assets/images/path-to-wp-phpstorm.png)
+ ![Configuring wp-cli path for PHPStorm](/source/docs/assets/images/path-to-wp-phpstorm.png)
 1. Click **OK** to save the changes.
 
 
@@ -46,7 +46,7 @@ You can configure PHPStorm to recognize WP-CLI from within your project by follo
 3. Click **+** to [add a web server](http://www.jetbrains.com/phpstorm/webhelp/add-server-dialog.html).
 4. Enter your Pantheon site name, followed by a dash and the environment.
 5. Select **SFTP** for type and click **OK**.
- ![Add web server PHPStorm](/source/assets/images/add-web-server-phpstorm.png)
+ ![Add web server PHPStorm](/source/docs/assets/images/add-web-server-phpstorm.png)
 ### Connection Tab
 
 Using your site's [SFTP connection information](/docs/developing-directly-with-sftp-mode#sftp-connection-information), configure the deployment connection and click **Test SFTP Connection**.

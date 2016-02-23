@@ -99,7 +99,7 @@ To import after creation, select the intended upstream and Install it, and skip 
 If your site is in a single-file archive, upload the file or provide the publicly-accessible URL for the importer to download, and click **Import Site** <div class="alert alert-info" role="alert">
 <h4>Note</h4>
 Dropbox URL's need to be modified so they end in <code>dl=1</code> instead of the default <code>dl=0</code>. This forces a download of your archive and avoids the Dropbox landing page.  </div>
- ![Single Archive Import](/source/assets/images/single-archive-import.png)
+ ![Single Archive Import](/source/docs/assets/images/single-archive-import.png)
 
 If you prepared separate code, database, and files archives:
 
@@ -114,7 +114,7 @@ When it completes, proceed to [test your site](#test-your-site).
 At the new site's dashboard, clone the code repository with Git. Once cloned, synchronize the code locally and merge in favor of the Pantheon master branch for any conflicts. Then, push the code back up to your Pantheon site repository. For instructions on how to clone using Git, see [Starting with Git](/docs/starting-with-git/).
 
 If the database and/or files meet the file size limits described above, you can import them into the Dev environment using the **Workflow** > **Import tool**.
- ![Import tool for database and files](/source/assets/images/import-tool-db-and-files.png)
+ ![Import tool for database and files](/source/docs/assets/images/import-tool-db-and-files.png)
 
 If the database or is larger than 500MB, use the **Connection Info** panel to connect and import via a mysql client or using mysql-cli.
 

@@ -2,16 +2,17 @@
 {% block content_wrapper %}
 <article>
     <div class="article container-fluid">
+      <div class="btn-group" role="group" aria-label="...">
+        <a href="https://github.com/pantheon-systems/documentation/edit/master/source{{ page.url }}.md" target="blank"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Edit This Doc</button></a>
+        <a href="https://github.com/pantheon-systems/documentation/issues/new?title={{page.title}}%20Doc%20Update%20&body=Re%3A%20%5B{{page.title}}%5D(https%3A%2F%2Fpantheon.io{{page.url}})%0A%23%23%20Issue%20Description%3A%0A%0A%23%23%20Suggested%20Resolution%20&labels=type%3A%20doc%20update" target="blank"><button type="button" class="btn btn-primary">  <span class="glyphicon glyphicon-tag"></span> Open Doc Issue</button></a>
+        <a href="https://github.com/pantheon-systems/documentation/issues/new?title=New%20Doc%20Proposal%20&body=%23%23%20Title%0A%0A%0A%23%23%20Description%0A%0A%0A%23%23%20Outline%0A%0A%0A%23%23%20Expected%20Audience%0A%0A%0A%23%23%20Path%0A(e.g.%20%60source%2Fdocs%2Farticles%2Fsites%2Fcode%60%20or%20%60source%2Fdocs%2Farticles%2Fwordpress%60)&labels=type%3A%20new%20article" target="blank"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span> Suggest New Doc</button></a>
+      </div>
+
         <div class="col-md-9">
             <header>
                 <h1 class="pio-docs-title">{{ page.title }}</h1>
                 <!-- Single button -->
                 <!-- Split button -->
-                <div class="btn-group" role="group" aria-label="...">
-                  <a href="https://github.com/pantheon-systems/documentation/edit/master/source{{ page.url }}.md" target="blank"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Edit This Doc</button></a>
-                  <a href="https://github.com/pantheon-systems/documentation/issues/new?title={{page.title}}%20Doc%20Update%20&body=Re%3A%20%5B{{page.title}}%5D(https%3A%2F%2Fpantheon.io{{page.url}})%0A%23%23%20Issue%20Description%3A%0A%0A%23%23%20Suggested%20Resolution%20&labels=type%3A%20doc%20update" target="blank"><button type="button" class="btn btn-primary">  <span class="glyphicon glyphicon-tag"></span> Open Doc Issue</button></a>
-                  <a href="https://github.com/pantheon-systems/documentation/issues/new?title=New%20Doc%20Proposal%20&body=%23%23%20Title%0A%0A%0A%23%23%20Description%0A%0A%0A%23%23%20Outline%0A%0A%0A%23%23%20Expected%20Audience%0A%0A%0A%23%23%20Path%0A(e.g.%20%60source%2Fdocs%2Farticles%2Fsites%2Fcode%60%20or%20%60source%2Fdocs%2Farticles%2Fwordpress%60)&labels=type%3A%20new%20article" target="blank"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span> Suggest New Doc</button></a>
-                </div>
                 </header>
             <!--{% if page.category %}
             <p class="category">Categories:

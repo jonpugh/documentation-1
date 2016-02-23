@@ -21,7 +21,7 @@ Currently, there are two services on Pantheon that support SSH tunneling:
 
 From the Site Dashboard, access the environment you want to connect with, and click **Connection Info**. This will give you the required environment specific values for the command example below.
 
-![Connection info](/source/assets/images/desk_images/168060.png)
+![Connection info](/source/docs/assets/images/desk_images/168060.png)
 
 Use the required values from the **Connection Info** tab, the desired environment (Dev, Test, or Live), and the  [site uuid](/docs/#site-uuid) found in the Dashboard URL within the following command:
 ```

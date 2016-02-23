@@ -21,12 +21,12 @@ In the above example the key type is "ssh-rsa", though you may also generate ssh
 1. Log in to Pantheon and visit the Account page.
 2. Click **SSH Keys**, and paste the copied key into the box.
 3. Click **Add Key**.
-![Adding SSH Keys](/source/assets/images/add-ssh-key-dashboard.png)
+![Adding SSH Keys](/source/docs/assets/images/add-ssh-key-dashboard.png)
 Once the key has been successfully added, it will appear under the list of available keys on your Pantheon Account page.
-![Show SSH Keys](/source/assets/images/remove-ssh-key.png)
+![Show SSH Keys](/source/docs/assets/images/remove-ssh-key.png)
 
 ### Delete a Key
 To delete a key, go to the Account page and click **SSH Keys**. Simply click the **Remove** button next to the key you want to delete.
-![Delete SSH Key](/source/assets/images/remove-ssh-key.png)
+![Delete SSH Key](/source/docs/assets/images/remove-ssh-key.png)
 
 If you have no keys remaining but still have active sites, you will still have access to them and can make edits via SFTP and Git using your account password to authenticate.

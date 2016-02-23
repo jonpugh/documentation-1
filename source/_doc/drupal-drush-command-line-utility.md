@@ -31,7 +31,7 @@ Pantheon aliases updated. [ok]
 ### Download and Move the File Manually
 
 To get started, go to your Pantheon Dashboard and click **Download all Drush aliases** to get a compiled list of every Pantheon site you have associated with your account. The resulting file will be named pantheon.aliases.drushrc.php. If you add a site to your account, you will have to download a new copy of your Drush aliases.<br />
-![Link to Pantheon Drush Aliases](/source/assets/images/desk_images/169655.png)
+![Link to Pantheon Drush Aliases](/source/docs/assets/images/desk_images/169655.png)
 
 ###Install the Pantheon Drush Aliases
 

@@ -7,7 +7,7 @@ Every Pantheon site comes with three environments: Dev, Test, and Live. Separate
 
 
 ## Code Moves Up, Content Moves Down
-<img src="/source/assets/images/workflow.png" alt="Dev Test and Live icon" style="border:0;margin-left:auto;margin-right:auto;display:block;">
+<img src="/source/docs/assets/images/workflow.png" alt="Dev Test and Live icon" style="border:0;margin-left:auto;margin-right:auto;display:block;">
 
 The core of the Pantheon workflow is to move code up from Dev to Test to Live and content down from Live to Test to Dev.
 
@@ -22,7 +22,7 @@ Update code in the Dev environment via [SFTP](/docs/developing-directly-with-sft
 
 When you're ready to test a new set of changes, take your code from Dev, your content from Live, and freshly combine them in Test to be absolutely certain that your deployment to Live will go as planned.
 
-![Site dashboard, test environment, code section](/source/assets/images/desk_images/376212.png)
+![Site dashboard, test environment, code section](/source/docs/assets/images/desk_images/376212.png)
 
 After running this operation, be sure that:  
 - Your database updates succeed.  
@@ -38,7 +38,7 @@ This may be a good time to run regression or "smoke" tests by stepping through y
 
 After testing your changes, you can take them live. Deploying code from Test to Live will immediately update your live website; however, static assets such as images and css may still be outdated. To update them, check the **Clear Caches** option when deploying changes to your Live environment. For more details, see [Understanding and Debugging Varnish Cache Issues](/docs/debugging-cache/).
 
-![Site dashboard, live environment, workflow section](/source/assets/images/desk_images/376217.png)
+![Site dashboard, live environment, workflow section](/source/docs/assets/images/desk_images/376217.png)
 
 ## Configuration Management
 

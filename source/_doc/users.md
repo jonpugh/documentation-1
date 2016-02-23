@@ -4,7 +4,7 @@ description: The Pantheon user entity and its relationship to Drupal or WordPres
 ---
 
 Access all of your sites and manage your account information from the User Dashboard.
-![Site Dashboard](/source/assets/images/pantheon-user-dashboard1.png)
+![Site Dashboard](/source/docs/assets/images/pantheon-user-dashboard1.png)
 
 ###Sites Tab
 Every site you're a team member of is displayed here, along with the number of free sites you have remaining. Return to this page by clicking the Pantheon logo.
@@ -20,7 +20,7 @@ The Account tab is where you can update your user profile details, change your p
 
 ##Team Management
 It's easy to add, manage, and delete your site's users. For complete details, see [Team Management](https://pantheon.io/docs/team-management/).
-![Team Management Window](/source/assets/images/team-modal.png)
+![Team Management Window](/source/docs/assets/images/team-modal.png)
 ##Pantheon for Agencies
 
 With Pantheon for Agencies, you can build, launch, and run all your clients’ Drupal and WordPress sites through one dashboard.

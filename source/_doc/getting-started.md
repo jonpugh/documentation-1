@@ -4,11 +4,11 @@ description: Learn how to create a Drupal or WordPress site on Pantheon.
 categories: [users, sites]
 tags: [create]
 ---
-<img src="/source/assets/images/icon-launch-k.svg" alt="Launch Icon" style="float:left;margin-left:0px;margin-right:20px;margin-top:15px;margin-bottom:0px;border:0;max-height:80px;"><p style="padding-top:20px;margin-right:0px;">Welcome to Pantheon, the world’s fastest hosting for Drupal and WordPress. In a few simple steps, your site will be up and running on our distributed infrastructure with no single points of failure.</p>
+<img src="/source/docs/assets/images/icon-launch-k.svg" alt="Launch Icon" style="float:left;margin-left:0px;margin-right:20px;margin-top:15px;margin-bottom:0px;border:0;max-height:80px;"><p style="padding-top:20px;margin-right:0px;">Welcome to Pantheon, the world’s fastest hosting for Drupal and WordPress. In a few simple steps, your site will be up and running on our distributed infrastructure with no single points of failure.</p>
 ## Create Your Free Account
 If you haven't already done so, create your [free Pantheon account](https://pantheon.io/register). Agencies (even freelancers) who build websites for third parties can [sign up for Pantheon for Agencies](https://pantheon.io/agencies/pantheon-for-agencies).
 ## Create a Site
-<img src="/source/assets/images/icon-developer-dashboard.svg" alt="Launch Icon" style="float:right;margin:5px;border:0;max-height:80px;"><p style="padding-top:0px;">Click "Create your first site" or visit <a href="https://dashboard.pantheon.io/sites/create" target="blank">https://dashboard.pantheon.io/sites/create</a>. All users receive two free sandbox sites. When one of your sites converts to a <a href="https://pantheon.io/pricing">paid plan</a>, you can start another sandbox site. If you need additional development sites, contact us and we'll be happy to work with you. Pantheon for Agencies organizations do not have the two-sandbox restriction for sites associated with their organization.</p>
+<img src="/source/docs/assets/images/icon-developer-dashboard.svg" alt="Launch Icon" style="float:right;margin:5px;border:0;max-height:80px;"><p style="padding-top:0px;">Click "Create your first site" or visit <a href="https://dashboard.pantheon.io/sites/create" target="blank">https://dashboard.pantheon.io/sites/create</a>. All users receive two free sandbox sites. When one of your sites converts to a <a href="https://pantheon.io/pricing">paid plan</a>, you can start another sandbox site. If you need additional development sites, contact us and we'll be happy to work with you. Pantheon for Agencies organizations do not have the two-sandbox restriction for sites associated with their organization.</p>
 
 Visit your Dashboard to [create a site](https://dashboard.pantheon.io/sites/create).
 
@@ -25,7 +25,7 @@ On the Site Dashboard, click **Visit Development Site** to complete the Drupal o
 If you have an existing Drupal or WordPress site that you want to import, choose <strong>Import Archives</strong>. For details, see <a href="/docs/migrate">Migrate Sites to Pantheon</a>.</p>
 
 ## Interact With Your Code
-<img src="/source/assets/images/icon-tools.png" alt="Tools Icon" style="float:left;margin-right:15px;margin-top:10px;margin-bottom:0px;border:0;max-height:80px;"><p style="padding-top:5px;padding-bottom:0px;">
+<img src="/source/docs/assets/images/icon-tools.png" alt="Tools Icon" style="float:left;margin-right:15px;margin-top:10px;margin-bottom:0px;border:0;max-height:80px;"><p style="padding-top:5px;padding-bottom:0px;">
 
 There are two ways to add and update your site's code: Git source code management and SFTP.</p>
 
@@ -60,7 +60,7 @@ Ensure a successful launch by following our best practice checklist for [Going L
 Read [All About Application Containers](/docs/all-about-application-containers/) for a better understanding of the Pantheon architecture.
 
 ## Essential Reading
-<img src="/source/assets/images/icon-document-hand.png" alt="Tools Icon" style="float:left;margin-right:15px;margin-right:15px;margin-top:5px;margin-bottom:0px;border:0;max-height:80px;"><p style="padding-top:10px;padding-bottom:20px;">
+<img src="/source/docs/assets/images/icon-document-hand.png" alt="Tools Icon" style="float:left;margin-right:15px;margin-right:15px;margin-top:5px;margin-bottom:0px;border:0;max-height:80px;"><p style="padding-top:10px;padding-bottom:20px;">
 If you're ready to move beyond the basics, check out our curated list of <a href="/docs/required-reading-essential-pantheon-documentation">Required Reading: Essential Pantheon Documentation</a>.</p>
 
 ## See also

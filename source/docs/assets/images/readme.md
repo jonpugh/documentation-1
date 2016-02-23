@@ -24,7 +24,7 @@ Ex: sites-dev-code-pending-changes-ready-commit.png
 Take your newly named and locally saved images and compress them at [Tiny PNG](https://tinypng.com/) prior to adding to the repository.
 
 ## Adding Images to the Repository
-Move your newly compressed files to `/source/assets/images/`.
+Move your newly compressed files to `/source/docs/assets/images/`.
 
 ## Embedding Images
 Markdown syntax for images is `![Alt text](/path/to/filename.png "Optional Title")` You can also use html <img> tags, but this should be unnecessary, as images are set to a max-width of 100% by css in our theme, and are provided with a 1px black border.
@@ -36,7 +36,7 @@ The code (when used within a list):
 1. Ordered list item
 2. Ordered list item
 3. Ordered list item
- ![Create your first site](/source/assets/images/create-site-dashboard.png)
+ ![Create your first site](/source/docs/assets/images/create-site-dashboard.png)
 4. Ordered list item
 5. Ordered list item
 ```
@@ -46,16 +46,16 @@ Will yield:
 1. Ordered list item
 2. Ordered list item
 3. Ordered list item
- ![Create your first site](/source/assets/images/create-site-dashboard.png)
+ ![Create your first site](/source/docs/assets/images/create-site-dashboard.png)
 4. Ordered list item
 5. Ordered list item
 
 The Alt attribute should convey the meaning of the image as closely as possible. The Title attribute is optional, and if used, should only elaborate on the Alt attribute (do not repeat the Alt text in the Title). It will be shown to users when their cursor hovers over the image. The example below omits the title attribute. If in doubt, omit the Title attribute.
 
-The code: `![The code tool in a site dashboard's development environment, with one file with changes ready to commit](/source/assets/images/dev-code-pendingchanges-commit.png)`
+The code: `![The code tool in a site dashboard's development environment, with one file with changes ready to commit](/source/docs/assets/images/dev-code-pendingchanges-commit.png)`
 
 will yield in the output server (Sculpin):
-![The code tool in a site dashboard's development environment, with one file with changes ready to commit](/source/assets/images/dev-code-pendingchanges-commit.png)
+![The code tool in a site dashboard's development environment, with one file with changes ready to commit](/source/docs/assets/images/dev-code-pendingchanges-commit.png)
 
 This is possible through the addition of a symlink at the root of the output site. For the images to display locally, you need to add the symlink to your output. From the root of the documentation repository:
 
@@ -65,7 +65,7 @@ $ ln -s ./ source
 ```
 
 ## Committing Docs with Images
-Add new `png` files to the `source/assets/images` directory, then include the image and `alt` attribute in the desired doc(s) within a single Pull Request.
+Add new `png` files to the `source/docs/assets/images` directory, then include the image and `alt` attribute in the desired doc(s) within a single Pull Request.
 
 ## Updating Images
 Sometimes you will need to update an image because of a functionality or interface change. To do so:

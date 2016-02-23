@@ -8,7 +8,7 @@ tags: [git, code]
 ## Resolving Conflicts
 
 ### How do I resolve conflicts when updating Core?
-<img src="/source/assets/images/icon-workflow.svg" alt="Worfklow Icon" style="margin-top:25px;margin-right:15px;float:left;border:0;max-height:80px;"><p style="margin-top:10px;margin-bottom:40px;">If you receive the error that you have conflicts while updating core, the fastest resolution is often the <code>-Xtheirs</code> flag. This will attempt to automatically resolve the conflicts with a preference for upstream changes and is safe to run if you don't have your own changes in any of the conflicting files (e.g. problems with <code>.gitignore</code>).</p>
+<img src="/source/docs/assets/images/icon-workflow.svg" alt="Worfklow Icon" style="margin-top:25px;margin-right:15px;float:left;border:0;max-height:80px;"><p style="margin-top:10px;margin-bottom:40px;">If you receive the error that you have conflicts while updating core, the fastest resolution is often the <code>-Xtheirs</code> flag. This will attempt to automatically resolve the conflicts with a preference for upstream changes and is safe to run if you don't have your own changes in any of the conflicting files (e.g. problems with <code>.gitignore</code>).</p>
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
@@ -67,7 +67,7 @@ For users who need any of the upstreams for Drupal distributions on Pantheon in 
 ### How can I manually resolve conflicts?
 <p>Conflicts can occur when the upstream you are trying to merge your code with has made alterations to files.</p>
 
-<p style="margin-top:0px;margin-bottom:40px;"><img src="/source/assets/images/icon-version-control.svg
+<p style="margin-top:0px;margin-bottom:40px;"><img src="/source/docs/assets/images/icon-version-control.svg
 " data-proofer-ignore alt="Worfklow Icon" style="margin-right:30px;max-height:80px;margin-top:10px;float:left;border:0;"><br /><em>When a merge isn’t resolved automatically, Git leaves the index and the working tree in a special state that gives you all the information you need to help resolve the merge. - <a href="http://www.kernel.org/pub/software/scm/git/docs/v1.7.3/user-manual.html#resolving-a-merge">Git Manual</a></em><br /></p>
 
 To manually delete merge conflicts from the terminal, use the following commands in sequence. Start by identifying the file that is generating a delete error.
@@ -149,7 +149,7 @@ From your local clone, you should be able to run the `git apply` command as per 
 Drupal.org also has instructions if you're looking to give back by [creating patches for Drupal](http://drupal.org/node/707484).
 
 ### How do I import a site with existing Git history?
-<img src="/source/assets/images/icon-performance-optimization.svg" alt="Performance Optimization Icon" style="margin-right:15px;max-height:80px;margin-top:5px;float:left;border:0;"><p style="padding-top:5px;margin-bottom:35px;">
+<img src="/source/docs/assets/images/icon-performance-optimization.svg" alt="Performance Optimization Icon" style="margin-right:15px;max-height:80px;margin-top:5px;float:left;border:0;"><p style="padding-top:5px;margin-bottom:35px;">
 If you're importing a site that has an existing Git history, you may be able to retain the history if you can successfully merge from the Pantheon upstream.</p>
 
 1. Start a new Pantheon site with a vanilla version of Drupal. Choose the version that's appropriate for your project.

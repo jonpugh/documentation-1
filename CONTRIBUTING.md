@@ -40,7 +40,7 @@ Headers and Subheaders render as H2 and H3 tags when the site is published. Thes
 
 ### Use of Images
 
-All images must include a descriptive `alt` value. For details, see the [Images Readme](https://github.com/pantheon-systems/documentation/blob/master/source/assets/images/readme.md).
+All images must include a descriptive `alt` value. For details, see the [Images Readme](https://github.com/pantheon-systems/documentation/blob/master/source/docs/assets/images/readme.md).
 
 ## Edit on GitHub
 

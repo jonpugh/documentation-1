@@ -24,7 +24,7 @@ When creating an AWS account, you will have to enter credit card information. Th
 [Identity and Access Management (IAM)](http://aws.amazon.com/iam/) allows you to manage all user access to AWS resources and services. Before you can use CloudFront, you need to create an IAM user.
 
 1. From your [AWS Console](https://console.aws.amazon.com), click **Identity & Access Management**.
- ![AWS Console IAM](/source/assets/images/aws-console-iam2.png)
+ ![AWS Console IAM](/source/docs/assets/images/aws-console-iam2.png)
 2. Click **Users**, then **Create New Users**.
 3. Enter a descriptive user name and click **Create**.
 4. View the new user security credentials by clicking **Show User Security Credentials**.
@@ -43,7 +43,7 @@ Now you need to give the new user permission to manage S3 (Amazon Simple Storage
 1. From the [Users page](https://console.aws.amazon.com/iam/home#users), select your new user.
 1. In the Permissions section, click **Attach Policy**.
 1. Select **AmazonS3FullAccess** and click **Attach Policy**.
- ![AWS User Permissions S3 Access](/source/assets/images/aws-add-s3fullaccess.png)
+ ![AWS User Permissions S3 Access](/source/docs/assets/images/aws-add-s3fullaccess.png)
 
 You now have a user with full S3 access and are ready to configure WordPress.
 
@@ -106,7 +106,7 @@ From within your WordPress dashboard:
 
   You will now see the following message on the Settings page:
 
-  ![AWS Plugin Settings User Added](/source/assets/images/aws-plugin-add-user.png)
+  ![AWS Plugin Settings User Added](/source/docs/assets/images/aws-plugin-add-user.png)
 
 1. Click **AWS**, then **S3 and CloudFront** from within your WordPress Dashboard.  
 2. Create a new bucket by entering a unique name, and then click **Create**.  

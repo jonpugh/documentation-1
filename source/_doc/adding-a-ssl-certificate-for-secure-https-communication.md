@@ -126,9 +126,9 @@ You may see that the SSL certificate matches your intended domain, but do not ex
 1. Point your browser to the custom IP address you received after enabling HTTPS: https://x.x.x.x
 2. Click the padlock in the address bar.
 3. Select **Certificate Information**.<br />
- ![Image showing to click padlock and Certificate Information](/source/assets/images/verify-ssl-cert-valid-chrome-0.png)
+ ![Image showing to click padlock and Certificate Information](/source/docs/assets/images/verify-ssl-cert-valid-chrome-0.png)
 4. Verify certificate details match the domain(s) you'll point to the site.
- ![Certificate information](/source/assets/images/verify-ssl-cert-valid-chrome.png)
+ ![Certificate information](/source/docs/assets/images/verify-ssl-cert-valid-chrome.png)
 
 ### Test with cURL
 

@@ -61,11 +61,11 @@ WordPress site code repositories are clones of one our [WordPress upstream](http
 
 ## Navigate the Code Tool
 You can set the site's [connection mode](/docs/getting-started/#interact-with-your-code) and access [connection information](/docs/developing-directly-with-sftp-mode#sftp-connection-information) from within the Dev environment's Code tool. This is also where all changes to the site's codebase (located in the `/code` directory) are committed.
-![Code Workflow Dev SFTP Commit](/source/assets/images/interface-dev-code-sftp-commit.png)
+![Code Workflow Dev SFTP Commit](/source/docs/assets/images/interface-dev-code-sftp-commit.png)
 
 You can also view the diff output for each individual file:
 
-![Diff output](/source/assets/images/diff-screen.png)
+![Diff output](/source/docs/assets/images/diff-screen.png)
 
 ### Upstream Updates
 The Dev environment provides [one-click updates](/docs/applying-upstream-updates/) for your site's upstream. Updates will appear in the Code tool once they are committed to the upstream repository.

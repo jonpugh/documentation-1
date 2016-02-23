@@ -256,7 +256,7 @@ Then I should see "Post published"
 
 You'll also see the browser open and run through the test:
 
-[![Feature: Editor can post to blog. Behat, Selenium Server running, automating browser](/source/assets/images/automated-testing-wordpress-behat.gif)](http://g.recordit.co/vEFYVJq4tM.gif)
+[![Feature: Editor can post to blog. Behat, Selenium Server running, automating browser](/source/docs/assets/images/automated-testing-wordpress-behat.gif)](http://g.recordit.co/vEFYVJq4tM.gif)
 
 
 Now you should be on your way to writing and running more automated Behat tests for your WordPress sites!

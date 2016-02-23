@@ -9,7 +9,7 @@ Variables that are converted to <code>PANTHEON_STRIPPED</code> cannot be read wi
 
 ## Issue: PANTHEON_STRIPPED Displays in the utm_source URL Parameter in Google Analytics
 
-![pantheon_stripped](/source/assets/images/pantheon_stripped.png)
+![pantheon_stripped](/source/docs/assets/images/pantheon_stripped.png)
 
 This is typically caused by a PHP redirection in your site’s code. If you redirect a request in PHP that contains the replaced values, then the URL will contain PANTHEON_STRIPPED values. Therefore, if you want to direct traffic to your Pantheon site using a campaign containing `utm` or similar GET parameters, avoid sending them to a page that redirects in PHP.
 

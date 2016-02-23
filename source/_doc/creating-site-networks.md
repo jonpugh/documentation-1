@@ -89,7 +89,7 @@ WordPress Site Networks can also be created from the WordPress Dashboard by foll
 
 Once you’ve created the network, you’ll be taken to a new page:
 
-![WordPress Network Admin Setup](/source/assets/images/wp-network-setup.png)
+![WordPress Network Admin Setup](/source/docs/assets/images/wp-network-setup.png)
 
 Copy the first block and add the constants to your site’s `wp-config.php` file, right below where you added the `WP_ALLOW_MULTISITE` constant.
 
@@ -107,7 +107,7 @@ Congratulations on setting up your first WordPress Multisite environment. You ar
 
 When logged in to the WordPress Dashboard, you'll see a new “My Sites” menu item in the toolbar.
 
-![WordPress Site Network Dashboard](/source/assets/images/wp-network-admin-sites.png)
+![WordPress Site Network Dashboard](/source/docs/assets/images/wp-network-admin-sites.png)
 
 You will have one site. To add another, use [`wp site create`](http://wp-cli.org/commands/site/create/).
 ```bash
