@@ -9,7 +9,7 @@ For Experts only. You should not need to attempt this if you use [Multidev](/doc
 
 <div class="alert alert-danger" role="alert">
 <h4>Warning</h4>
-We do not recommend hotfixing. Hotfixes should be the exception, not the norm. Pushing a hotfix via Git is the only way to push code directly to Live without having to go through Dev and Test. Hotfixing is not a best practice and any damage to the source code will be the responsibility of the user and should be avoided whenever possible.
+We do not recommend hotfixing. Hotfixes should be the exception, not the norm. Pushing a hotfix via Git is the only way to push code directly to Live without having to go through Dev and Test. Hotfixing is not a best practice and any damage to the source code will be the responsibility of the user and should be avoided whenever possible. We recommend restoring Dev's codebase as an alternative, see <a href="/docs/articles/sites/backups/restoring-an-environment-from-a-backup#restoring-the-codebase">Restoring an Environment from a Backup</a>.
 </div>
 
 
@@ -17,6 +17,7 @@ We do not recommend hotfixing. Hotfixes should be the exception, not the norm. P
 
 - A working knowledge of Git tools.
 - An up-to-date clone of your Pantheon Git repository.
+
 
 ## Get Into the Right Tag
 

@@ -16,16 +16,29 @@ All Pantheon sites consist of three parts:
 1. From your Site Dashboard, go to the Live environment and click **Backups**.
 2. Select the backup you want to clone from, and download each of the backup files (code, database, files) by clicking the **download** icon.
 
-When you download a code archive for an environment, it contains the full Git repository checked out at master. If this code archive is combined with the database and files archive from that point in time, the code might not match the snapshot deployed on that environment. If you want to make a clone of Live or Test and it is a few commits behind Dev, use Git to checkout the appropriate tag for the state of code you want. This will leave the repository in a detached head state so you can create and then merge a branch back into master prior to uploading it.  
+Code archives contain the full remote Git repository and reflect the state of code for the given environment. Backups created on the Test and Live environments automatically checkout the [`git tag`](https://git-scm.com/book/en/v2/Git-Basics-Tagging)associated with the most recent deployment.
 
-To get the master branch in the same state as the code checked out on a tag:
+To restore the Dev environment using a backup from Test or Live, access the downloaded code archive in terminal and run:
+
 ```
-git checkout pantheon_env_nnn
-git checkout -b new_branch_name
+git checkout -b tmp
 git checkout master
-git merge new_branch_name
+git merge tmp
 ```
-Then you can make an archive of this codebase to import into a new site, or push the master branch back up to the origin, or push the new branch and try it out on Multidev.
+
+Include additional work and commit as needed, then use `git push origin master --force` to update the Dev environment on the same site or make an archive to import into a new site:
+
+```php
+# Specify the destination folder.
+TARGET=~/Desktop
+# Specify the source folder.
+SOURCE=~/Projects/mysite
+# Change directory to the source folder.
+cd $SOURCE
+# Create an archive
+tar -czf $TARGET/code_archive_sitename.tar.gz .
+```
+
 
 ## Import Your Code/Files/Database
 
