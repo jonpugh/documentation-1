@@ -4,7 +4,7 @@
       <div class="article col-md-12">
         <div class="col-md-9">
           <header>
-                <h1 class="pio-docs-title">{{ page.title }}</h1>
+                {% if page.category %}
                   <small><i class="fa fa-folder"></i> Categories:</small>
                   {% for category in page.categories %}
                   <a href="/docs/categories/{{ category|url_encode(true) }}"><small>{{ category|capitalize }}</small></a>{% if not loop.last %}, {% endif %}
@@ -15,13 +15,11 @@
                   <a href="/docs/tags/{{ tag|url_encode(true) }}"><small>{{ tag|capitalize }}</small></a>{% if not loop.last %}, {% endif %}
                   {% endfor %}
                   <hr>
+                  {% endif %}
               </header>
             <div style="margin-top:15px;">
                 {{ page.blocks.content|raw }}
             </div>
-        </div>
-        <div class="col-md-3">
-            {% include ("sidebarnav.html") %}
         </div>
     </div>
 </article>

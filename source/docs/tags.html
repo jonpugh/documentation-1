@@ -1,11 +1,11 @@
 ---
-layout: doc
+layout: index
 use: [docs_tags]
-title: Tags
+title: All Tags
 ---
 
 <ul>
     {% for tag,docs in data.docs_tags %}
-        <li><a href="{{ site.url }}/tags/{{ tag|url_encode(true) }}">{{ tag }}</a></li>
+        <li><a href="{{ site.url }}/tags/{{ tag|url_encode(true) }}">{{ tag|capitalize }}</a></li>
     {% endfor %}
 </ul>

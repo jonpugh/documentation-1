@@ -7,9 +7,9 @@
                 <header>
                     <h1 class="pio-docs-title">{{ page.title }}</h1>
                         <div class="entry-meta">
-                            {% if page.authors %}
-                            {% set author_list = page.authors %}
-                            By {% include 'author_list.twig' %}
+                            {% if page.contributors %}
+                            {% set contributor_list = page.contributors %}
+                            By {% include 'contributor_list.twig' %}
                             {% endif %}
                             {% for category in page.categories %}
                             <br>in <a href="/guides/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}

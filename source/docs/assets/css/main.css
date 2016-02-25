@@ -222,37 +222,6 @@ img.noborder {
   font-weight: normal;
 }
 
-/* Outline button for use within the docs */
-.btn-outline {
-  color: #000;
-  background-color: white;
-  margin-top: 30px;
-  font-weight: 700;
-  padding: 15px;
-  border-color: #000;
-}
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active {
-  color: #000;
-  border-color: #000;
-}
-
-/* Inverted outline button (white on dark) */
-.btn-outline-inverse {
-  color: #fff;
-  background-color: transparent;
-  border-color: #FE4A45;
-}
-.btn-outline-inverse:hover,
-.btn-outline-inverse:focus,
-.btn-outline-inverse:active {
-  color: #563d7c;
-  text-shadow: none;
-  background-color: #fff;
-  border-color: #fff;
-}
-
 /* Pantheon "B" icon */
 .pio-docs-booticon {
   display: block;
@@ -2165,21 +2134,55 @@ color: #274E13 !important;
 .gsc-above-wrapper-area{
   border-bottom: none !important;
 }
-#bread {
+
+#subnav {
     top: 60px;
-    padding: 5px;
     position: absolute;
-    background-color: #DDE5E7;
-    z-index: 1;
-    color: #000;
-    font-weight: 900;
+    background-color: #EFEFEF;
+    z-index: 1001;
+    color: #313945;
+    padding-bottom: 5px;
+    transition: all 0.2s ease-in;
+
+}
+#subnav ul li a{
+ color:#313945;
+ font-weight: bold;
+ transition: all 0.2s ease-in;
+ text-transform: capitalize;
+ background-color:transparent;
+ padding-left:0px;
+ padding-right: 0px;
+ margin-left:10px;
+ margin-right:5px;
+}
+#subnav ul li a:hover {
+ color:#313945;
+ box-shadow: inset 0 -4px 0 #EFD01B;
+}
+#subnav ul li a:focus {
+  box-shadow: inset 0 -4px 0 #EFD01B;
+}
+
+#subnav .dropdown-menu {
+      background-color: #EFEFEF;
+      text-align: left;
+}
+
+#subnav .dropdown > .dropdown-menu  a {
+  color: #313945 !important;
+  transition: all 0.2s ease-in;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 10px;
+  margin: 0px;
+}
+#subnav .dropdown > .dropdown-menu  a:hover {
+  color: #313945 !important;
 }
 .navbar-fixed-top>.col-md-8>.active-trail {
   font-weight: 400;
   cursor: not-allowed;
-}
-.navbar-fixed-top>.col-md-8 {
-margin-top: 10px;
 }
 @-moz-document url-prefix() {
     .navbar-fixed-top > .col-md-8 {
@@ -2195,12 +2198,6 @@ margin-top: 10px;
     .article {
     margin-top: 30px !important;
 }
-}
-#bread .col-md-8 a {
-padding-bottom: 20px;
-}
-#bread .col-md-8 a:hover {
-    box-shadow: inset 0 -3px 0 #EFD01B;
 }
 #bread a {
     color: #000;

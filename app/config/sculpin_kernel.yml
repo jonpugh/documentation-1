@@ -15,10 +15,11 @@ sculpin_content_types:
         taxonomies:
             - categories
             - tags
-            - authors
+            - contributors
         permalink: docs/:slug_title/
 
     guides:
+        layout: guide
         type: path
         path: _guide
         singular_name: guide
@@ -26,5 +27,5 @@ sculpin_content_types:
         taxonomies:
             - categories
             - tags
-            - authors
+            - contributors
         permalink: guides/:slug_title/

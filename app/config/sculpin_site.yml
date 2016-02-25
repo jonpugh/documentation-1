@@ -8,7 +8,7 @@ site_url: https://pantheon.io
 assets_version: 1.12
 
 #######################################################################################################
-# The authors. Include your info here, under the "authors" key, using the following template:
+# The contributors. Include your info here, under the "contributors" key, using the following template:
 #
 #  handle:
 #      name: Your Name
@@ -26,7 +26,7 @@ assets_version: 1.12
 # on Google search results.
 #######################################################################################################
 
-authors:
+contributors:
   bmackinney:
       name: Brian MacKinney
       url: http://brianmackinney.com
@@ -104,3 +104,7 @@ authors:
     github: https://github.com/eeeschwartz/
     linkedin: https://www.linkedin.com/in/eeeschwartz
     bio: Civic developer, human centered!
+  rachel:
+    name: Rachel Whitton
+    twitter: rachwhitton
+    bio: Technical Content Editor

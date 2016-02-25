@@ -4,6 +4,8 @@ description: Learn how to access an account and set a new owner to a site.
 keywords: access an account, new owner, update site owner
 categories: [users]
 tags: [dashboard]
+contributors:
+  - rachel
 ---
 
 Site ownership is a self-service feature, and Pantheon does not transfer ownership from one owner to another. Best practice is to own your site in your name with a permanently reachable email.

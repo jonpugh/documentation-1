@@ -1,13 +1,10 @@
 ---
-layout: doc
-title: Categories
-use:
-    - docs_categories
+layout: index
+title: All Categories
+use: [docs_categories]
 ---
-<h2>Categories</h2>
-
-<div>
+  <ul>
 {% for category,docs in data.docs_categories %}
-<a href="{{ site.url }}/categories/{{ category|url_encode(true) }}">{{ category }}</a>
+  <li><a href="{{ site.url }}/categories/{{ category|url_encode(true) }}">{{ category|capitalize }}</a></li>
 {% endfor %}
-</div>
+</ul>

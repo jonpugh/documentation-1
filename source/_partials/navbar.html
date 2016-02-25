@@ -46,14 +46,27 @@
                 <li class="create-account"><a href="https://pantheon.io/register" target="_blank">Create Free Account <span class="">&rsaquo;</span></a></li>
                 <li class=""><a href="https://dashboard.pantheon.io" target="_blank">Log In</a></li>
                 <li class=""><a href="https://dashboard.pantheon.io/#support/support/all" target="_blank">Support</a></li>
-                <li class="active-trail"><a href="/docs">Documentation</a></li>
             </ul>
-        </div>
-</div>
-<!-- Nav Breadcrumbs -->
-    <div class="navbar-fixed-top" id="bread">
-    <div class="col-md-12">
-        <li class="search-form"> {% include("search_box.html") %}</li>
-
+      </div>
     </div>
-</div>
+<!-- Nav Breadcrumbs -->
+    <div class="navbar-fixed-top col-md-12" id="subnav">
+        <div class="col-md-12 navbar-collapse collapse">
+          <ul style="float:left;" class="nav navbar-nav">
+          <li class="active-trail"><a href="/docs">Docs</a></li>
+          <li><a href="/guides">Guides</a></li>
+          <li><a href="/changelog">Changelog</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="icon-github"></span> Contribute <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://github.com/pantheon-systems/documentation/edit/master/source{{ page.url }}.md" target="blank">Edit This Doc</a></li>
+              <li><a href="https://github.com/pantheon-systems/documentation/issues/new?title={{page.title}}%20Doc%20Update%20&body=Re%3A%20%5B{{page.title}}%5D(https%3A%2F%2Fpantheon.io{{page.url}})%0A%23%23%20Issue%20Description%3A%0A%0A%23%23%20Suggested%20Resolution%20&labels=type%3A%20doc%20update" target="blank"> Report Doc Issue</a></li>
+              <li><a href="https://github.com/pantheon-systems/documentation/issues/new?title=New%20Doc%20Proposal%20&body=%23%23%20Title%0A%0A%0A%23%23%20Description%0A%0A%0A%23%23%20Outline%0A%0A%0A%23%23%20Expected%20Audience%0A%0A%0A%23%23%20Path%0A(e.g.%20%60source%2Fdocs%2Farticles%2Fsites%2Fcode%60%20or%20%60source%2Fdocs%2Farticles%2Fwordpress%60)&labels=type%3A%20new%20article" target="blank">Suggest New Doc</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="/guides/contributors">Contributors</a></li>
+            </ul>
+          </li>
+          <li style="width:40%;float:right;">{% include("search_box.html") %}
+        </ul>
+    </div>
+  </div>
